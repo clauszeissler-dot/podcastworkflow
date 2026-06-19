@@ -25,6 +25,11 @@ except Exception:
     pass
 
 KEY_CANDIDATES = [
+    # macOS/Linux (kein OneDrive) — von gen_image_fixed.py ebenfalls gefunden:
+    Path.home() / "Documents" / "Claude" / "Projects" / "Bild Skill" / "api_keys.env",
+    Path.home() / "Dokumente" / "Claude" / "Projects" / "Bild Skill" / "api_keys.env",
+    Path.home() / ".config" / "ki-affairs" / "api_keys.env",
+    # Windows (OneDrive) — Original-Arbeitsgerät:
     Path.home() / "OneDrive" / "Dokumente" / "Claude" / "Projects" / "Bild Skill" / "api_keys.env",
     Path.home() / "OneDrive" / "Documents" / "Claude" / "Projects" / "Bild Skill" / "api_keys.env",
     Path.home() / "OneDrive" / "Claude" / "Projects" / "Bild Skill" / "api_keys.env",

@@ -44,3 +44,6 @@ Thumbs.db
 # Lokale Test-Ausgaben
 _test.png
 *.tmp
+
+.venv-tools/
+notebooklm-mcp-venv/
