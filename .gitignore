@@ -1,0 +1,46 @@
+# ===========================================================================
+#  SECRETS — dürfen NIEMALS ins Repo (siehe SETUP.md, Abschnitt 3)
+# ===========================================================================
+.env
+.env.*
+!.env.example
+api_keys.env
+*api_keys*.env
+.mcp.json
+!.mcp.json.example
+
+# Browser-Login-/Session-State (Cookies, Auth)
+.notebooklm/
+storage_state.json
+**/User Data/
+.playwright-mcp/
+*.har
+
+# ===========================================================================
+#  GROSSE MEDIEN / PRODUZIERTER EPISODEN-CONTENT
+#  Standard: lokal lassen (nicht versionieren). Wer Episoden mit-versionieren
+#  will, kommentiert die passende Zeile aus oder nutzt Git LFS.
+# ===========================================================================
+*.m4a
+*.mp3
+*.mp4
+*.wav
+video_output/
+# Staffel-Content (Audio/Bilder/Transkripte je Folge):
+# Staffel 03/
+
+# ===========================================================================
+#  Build-/Cache-Artefakte
+# ===========================================================================
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+
+# Lokale Test-Ausgaben
+_test.png
+*.tmp

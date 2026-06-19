@@ -1,0 +1,17 @@
+(Transkribiert von TurboScribe. Upgrade auf Unbegrenzt, um diese Nachricht zu entfernen.)
+
+Hallo und herzlich willkommen zum Podcast Quickie von KI Affairs. Das hier ist euer schnelles Briefing zur neuen KI-Gesetzgebung. Vergiss mal sofort alles, was du bisher über Deepfakes dachtest, dass das nur ein Problem von Promis oder ein Teenie-Quatsch auf Social Media ist.
+
+Absoluter Bullshit. Fakt ist, 99 Prozent der Schläfer in den Chefetagen pennen gerade komplett und denken, sie können generative KI einfach so nutzen. Ignoranz wird hier aber sofort zum Karrierestopper, weil bald Strafen von bis zu 15 Millionen Euro drohen.
+
+Genau deshalb gibt es uns als KI-Beratung KI Affairs, um euch davor zu bewahren, blind in diese rechtliche Kreissäge zu laufen. Schauen wir uns die drei wichtigsten Probleme an. Erstens die trügerische Sicherheit.
+
+Das Gesetz hinkt massiv hinterher, weil Deepfakes juristisch oft nur als Fiktion gelten. Euer Schmerz ist real, aber die aktuelle Rechtslage ist ein Schweizer Käse. Zweitens der regulatorische Tsunami.
+
+Die Einprozent-Macher haben längst kapiert, was passiert. Wer unkontrolliert KI-Tools zulässt, agiert wie ein Autohändler, der Autos ohne Fahrgestellnummer verkauft. Ab 2026 zwingt euch der EU-AI-Act zu unauslöschlichen C2PA-Wasserzeichen.
+
+Ohne die ist euer Geschäftsmodell buchstäblich auf Sand gebaut. Und drittens die Open-Source-Falle. Nutzt ihr lokale Modelle und denkt, ihr seid fein raus? Passt auf! Wenn Wasserzeichen nicht tief in der neuronalen Struktur verankert sind, werden sie einfach entfernt und eure Haftungsrisiken explodieren.
+
+Wer unregulierte KI nutzt, läuft geradewegs in ein existenzbedrohendes juristisches Minenfeld. Wie genau ihr diese Falle umgeht und was das fehlende Puzzleteil in eurer Strategie ist, schauen wir uns diesen Donnerstag in unserer großen Deep Dive-Folge ganz genau an. Hört also unbedingt rein! Vielen Dank fürs Zuhören und bis zum nächsten Quickie von KI-Affairs!
+
+(Transkribiert von TurboScribe. Upgrade auf Unbegrenzt, um diese Nachricht zu entfernen.)

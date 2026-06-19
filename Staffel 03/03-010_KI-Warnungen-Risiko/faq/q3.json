@@ -1,0 +1,56 @@
+{
+  "answer": "Die Bußgelder unter dem EU AI Act sind in einem gestaffelten System geregelt und können für Unternehmen erhebliche finanzielle Auswirkungen haben [1, 2]. Die genaue Höhe der Strafe richtet sich nach der Schwere des Verstoßes und berechnet sich entweder als fester Millionenbetrag oder als Prozentsatz des weltweiten Jahresumsatzes aus dem vorangegangenen Geschäftsjahr – **wobei in der Regel der jeweils höhere der beiden Werte zur Anwendung kommt** [3].\n\nDie Strafen sind wie folgt gestaffelt:\n\n*   **Verstöße gegen verbotene KI-Praktiken nach Artikel 5:** Für den Einsatz von KI-Systemen mit inakzeptablem Risiko (wie z. B. Social Scoring oder bestimmte biometrische Echtzeit-Überwachung) gilt die höchste Sanktionsstufe. Hier drohen Bußgelder von **bis zu 35 Millionen Euro oder bis zu 7 % des weltweiten Jahresumsatzes** [1, 3].\n*   **Sonstige Verstöße (z. B. bei Hochrisiko-KI):** Bei Nichteinhaltung der Verpflichtungen für Hochrisiko-Systeme oder anderer Bestimmungen (die nicht unter Artikel 5 fallen) können Strafen von **bis zu 15 Millionen Euro oder bis zu 3 % des weltweiten Jahresumsatzes** verhängt werden [1, 3].\n*   **Falsche Auskünfte:** Wenn Unternehmen den Aufsichtsbehörden oder benannten Stellen unrichtige, unvollständige oder irreführende Informationen zur Verfügung stellen, liegt der Strafrahmen bei **bis zu 7,5 Millionen Euro oder bis zu 1 % des weltweiten Jahresumsatzes** [1, 3].\n\n**Schutzregelungen für Start-ups und KMU:**\nFür kleine und mittlere Unternehmen (KMU) sowie Start-ups sieht das Gesetz eine Erleichterung vor: Um existenzbedrohende Härten zu vermeiden, wird bei diesen Unternehmen stets **der jeweils niedrigere Wert** aus den festgelegten Beträgen und Prozentsätzen als Obergrenze für das Bußgeld herangezogen [3].\n\n**Mehrschichtige Verantwortlichkeit (Multi-layered accountability):**\nEs ist wichtig zu betonen, dass diese Bußgelder unabhängig voneinander für verschiedene Akteure in der KI-Wertschöpfungskette gelten. Sowohl die Entwickler großer Basismodelle (GPAI Providers) als auch die nachgelagerten Unternehmen (Downstream Providers), die diese Modelle nutzen und in eigene Anwendungen integrieren, haben eigene Pflichten. **Beide Parteien können bei Verstößen gegen ihre jeweiligen Pflichten gleichzeitig und unabhängig voneinander mit diesen Strafen belegt werden** [4].",
+  "conversation_id": "c2bb120e-0cc0-4498-bf7a-c591a94d8c6d",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 1,
+      "cited_text": "1.2 Enforcement and Penalties",
+      "start_char": 3678,
+      "end_char": 3707,
+      "chunk_id": "43a95656-510d-4499-a666-50deb6632fe4",
+      "passage_id": null,
+      "answer_start_char": 3678,
+      "answer_end_char": 4245,
+      "score": 0.7980247235248218
+    },
+    {
+      "source_id": "6e14c2ad-0168-4387-bf64-024e66816a09",
+      "citation_number": 2,
+      "cited_text": "Technische Systeme ohne CE-Konformität",
+      "start_char": 13149,
+      "end_char": 13187,
+      "chunk_id": "c29a14e7-ee75-4703-8825-18450ace8a27",
+      "passage_id": null,
+      "answer_start_char": 13149,
+      "answer_end_char": 13890,
+      "score": 0.8132300281476774
+    },
+    {
+      "source_id": "f70a83fc-501c-40f0-9fd2-a8cfe20d04a1",
+      "citation_number": 3,
+      "cited_text": "Report issue for preceding element",
+      "start_char": 39554,
+      "end_char": 39588,
+      "chunk_id": "c5a5a0a9-ca28-49a6-97c9-e66e337a44be",
+      "passage_id": null,
+      "answer_start_char": 39554,
+      "answer_end_char": 41150,
+      "score": 0.809564398600959
+    },
+    {
+      "source_id": "f70a83fc-501c-40f0-9fd2-a8cfe20d04a1",
+      "citation_number": 4,
+      "cited_text": null,
+      "start_char": 41674,
+      "end_char": 41793,
+      "chunk_id": "b069786a-fdf8-4c94-94b7-556a0471fbb6",
+      "passage_id": null,
+      "answer_start_char": 41674,
+      "answer_end_char": 43379,
+      "score": 0.7963671877135967
+    }
+  ]
+}

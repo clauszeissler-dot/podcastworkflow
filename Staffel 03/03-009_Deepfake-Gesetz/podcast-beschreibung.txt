@@ -1,0 +1,63 @@
+Folge Q033
+Titel: KI-Content wird zur HAFTUNGSFALLE: DAS pennen 99 %
+
+Denkst du auch, Deepfakes sind nur ein Promi-Thema oder Teenie-Quatsch auf Social Media? Absoluter Bullshit. Das neue Recht gegen digitale Gewalt und der EU AI Act drehen jedem Unternehmen den Hahn zu, das KI-Inhalte ungeprüft rauslässt. 99 Prozent der Chefetagen pennen, das 1 Prozent handelt. ⚠️
+
+In diesem Podcast Quicky von KI AffAIrs reißen wir die neue KI-Haftung schonungslos an. Wir klären, warum „läuft schon" gerade die teuerste Annahme deines Jahres wird, und liefern dir den Reality-Check für deine KI-Strategie. Kein Technik-Tiefgang, nur das, was du JETZT auf dem Schirm haben musst.
+
+Die Insights dieser Folge:
+Trügerische Sicherheit: Das Gesetz hinkt hinterher, weil Deepfakes juristisch oft nur als „Fiktion" gelten. Dein Schmerz ist real, der Schutz ist es NICHT.
+Der Kennzeichnungs-Tsunami: Ab 2026 zwingt dich der EU AI Act zu unauslöschlichen C2PA-Wasserzeichen. Ohne die ist dein Geschäftsmodell auf Sand gebaut, und es drohen bis zu 15 Millionen Euro Strafe.
+Die Open-Source-Falle: Lokale Modelle fühlen sich sicher an, sind es aber nicht. Sitzt das Wasserzeichen nicht tief in der Modellstruktur, ist es in Sekunden weg und dein Haftungsrisiko explodiert. 🔒
+
+Kapitel:
+00:00 Worum es heute geht
+00:45 Falle 1: Trügerische Sicherheit
+00:58 Falle 2: Der Kennzeichnungs-Tsunami
+01:20 Falle 3: Die Open-Source-Falle
+01:40 Das kommt am Donnerstag
+
+WIE du diese Falle umgehst und was das fehlende Puzzleteil ist, zerlegen wir am Donnerstag in der großen Deep-Dive-Folge. ⏰ Unbedingt reinhören!
+
+Brauchst du Unterstützung bei der sicheren KI-Implementierung? KI AffAIrs ist deine strategische KI-Beratung für die Praxis. 🚀
+
+👉 Vernetze dich mit mir auf LinkedIn: https://www.linkedin.com/in/clauszeissler/
+👉 Mehr Infos zur Beratung: https://www.affairs-consulting.de/
+
+(Hinweis: Diese Podcast-Folge wurde mit Unterstützung und Strukturierung durch Google's NotebookLM erstellt.)
+
+
+
+Folge L033
+Titel: KI-Content wird zur HAFTUNGSFALLE: DAS ist die wasserdichte Architektur
+
+Am Montag haben wir die Warnblinkanlage eingeschaltet, heute wird geliefert. ⏰ Vergiss die Idee, ein simples Label auf dein KI-Bild zu klatschen und dich für sicher zu halten. Ein Screenshot, ein Upload ins alte Redaktionssystem, ein Klick auf Speichern, und deine ganze digitale Zutatenliste ist im Nirvana. Ab dem 2. August 2026 wird Artikel 50 des EU AI Act voll durchsetzbar, und dann zählt nur, was nachweisbar in deiner Pipeline steht.
+
+Willkommen zur Deep-Dive-Folge von KI AffAIrs! 🛡️ Heute zerlegen wir das fehlende Puzzleteil und bauen die mehrschichtige Architektur auf, die deine Inhalte robust, maschinenlesbar und gerichtsfest macht, inklusive echtem Acme-Corp-Szenario.
+
+Die Insights dieser Folge:
+Das kryptografische Wachssiegel (C2PA): Content Credentials schreiben kryptografisch in die Datei, wer sie erstellt hat und welche KI am Werk war. Ein verändertes Pixel bricht das Siegel, jede Prüfsoftware sieht sofort: manipuliert.
+Das unsichtbare Wasserzeichen (SynthID, Trustmark): Sitzt direkt in den Pixeln, für dein Auge unsichtbar, für die Software lesbar wie ein Barcode. Es überlebt Komprimieren und Zuschneiden.
+Durable Content Credentials, der Schlüssel-Trick: 🔐 Das Wasserzeichen ist nur ein kryptografischer Schlüssel. Kommt eine Datei nackt an, holt das Prüfprogramm das Original-Manifest vom Server und verklebt es wieder. So überbrückst du veraltete IT.
+Die ehrliche Grenze plus die Lösung: Technik allein rettet dich nicht, Tools entfernen sogar unsichtbare Signaturen. Deshalb braucht es Acceptable-Use-Policies, die das Entfernen vertraglich verbieten. Wer den Multi-Layer-Ansatz baut und rechtlich verankert, hat nach dem Stand der Technik gehandelt.
+
+Kapitel:
+00:00 Das fehlende Puzzleteil von Montag
+00:44 Der Deepfake-Albtraum und die juristische Lücke
+03:22 Neues Strafrecht: der Paragraf 201b
+04:45 EU AI Act, Artikel 50 und die 15-Millionen-Falle
+07:07 Warum simple Labels scheitern: der Multi-Layer-Ansatz
+08:46 Unsichtbare Wasserzeichen und der Durable-Credentials-Trick
+11:01 Das Acme-Corp-Szenario in der Praxis
+13:24 Die ehrliche Grenze der Technik
+16:23 Der Praxistipp der Woche
+18:23 Fazit und Ausblick
+
+Der Macher-Tipp der Woche: Mach den Acme-Corp-Test, dein IT-Verantwortlicher schafft das in zehn Minuten. Zieh den Output deines KI-Tools in einen kostenlosen C2PA-Viewer, dann speichere das Bild einmal durch dein eigenes Redaktionssystem und prüfe erneut. Ist das Siegel weg, hast du ein Stripping-Problem und weißt schwarz auf weiß: Deine Pipelines müssen jetzt umgebaut werden.
+
+Nachweisbares Vertrauen wird zur wichtigsten Währung. 🚀 Willst du beim EU AI Act den Vorsprung nutzen? KI AffAIrs unterstützt dich mit handfester Consulting-Expertise und macht den Mittelstand unzerbrechlich.
+
+👉 Vernetze dich mit mir auf LinkedIn: https://www.linkedin.com/in/clauszeissler/
+👉 Mehr Infos zur Beratung: https://www.affairs-consulting.de/
+
+(Hinweis: Diese Podcast-Folge wurde mit Unterstützung und Strukturierung durch Google's NotebookLM erstellt.)

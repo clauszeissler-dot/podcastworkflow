@@ -1,0 +1,152 @@
+{
+  "answer": "Um autonome KI-Agenten abzusichern, müssen traditionelle Sicherheitskonzepte radikal angepasst werden, da diese Systeme eigenständig handeln und Entscheidungen treffen. Die Absicherung erfolgt durch eine Kombination aus neuen Architekturansätzen, strengem Identitätsmanagement und klaren Governance-Vorgaben. \n\n**Zero-Trust-Architektur für KI-Agenten**\nDa KI-Agenten zunehmend als eigenständige digitale Akteure agieren, erfordern sie ein völlig neues Identitäts- und Zugriffsmanagement [1]. Das Prinzip \"Zero Trust für KI-Agenten\" (das Aspekte wie Delegation, Identität und Zugriffskontrolle umfasst) wird von Sicherheitsexperten als zentraler Baustein der zukünftigen Abwehr gesehen [2]. Die US-Behörde NIST hat im Februar 2026 eine Initiative gestartet, die sich unter anderem auf die Schaffung von \"Containment Boundaries\" (Eindämmungsgrenzen) für autonome Operationen konzentriert [3]. Diese Grenzen stellen sicher, dass ein Agent im Sinne einer Zero-Trust-Segmentierung nur in den Netzwerkteilen agieren kann, die für seine spezifische Aufgabe zwingend erforderlich sind, wodurch die Angriffsfläche verkleinert wird [3-5].\n\n**Agent Identity Cards**\nDas Konzept der Agent Identity Cards wurde im Januar 2026 von Singapur im weltweit ersten Governance-Framework für agentische KI (\"Model AI Governance Framework for Agentic AI\") offiziell eingeführt [6]. Diese \"Ausweise\" dienen als standardisiertes Offenlegungsformat für KI-Agenten [6]. Sie definieren exakt die Fähigkeiten, die Limitierungen, die autorisierten Handlungsspielräume (Action Domains) sowie die Eskalationsprotokolle des jeweiligen Agenten [6]. \n\n**Kurzlebige Token und kryptografische Absicherung**\n*Hinweis: Die von Ihnen spezifisch genannten \"kurzlebigen Token\" sowie der explizit \"kryptografische\" Charakter der Agent Identity Cards werden in den vorliegenden Quellen nicht wörtlich als technisches Detail genannt (dies ist eine Information außerhalb der Quellen, deren genaue technische Spezifikation Sie ggf. unabhängig verifizieren sollten).* \nDie Quellen belegen jedoch nachdrücklich, dass sichere APIs, eine lückenlose Authentifizierung und ein strenges Berechtigungsmanagement zwingend erforderlich sind, um Agenten vor Manipulationen wie Prompt-Injection oder Data Poisoning zu schützen [3, 7, 8]. Die NIST-Initiative legt zudem einen ihrer drei Hauptschwerpunkte ausdrücklich auf die \"Identität und Authentifizierung von Agenten\", was den Einsatz starker (kryptografischer) Authentifizierungsverfahren und temporärer Zugriffsrechte (wie Token) in der Praxis untermauert [3].\n\nZusätzlich zu diesen technischen Hürden werden autonome KI-Agenten durch folgende strategische Maßnahmen abgesichert:\n\n*   **Lückenloses Action Logging und Audit Trails:** Jeder Schritt, den ein autonomer Agent unternimmt, muss revisionssicher aufgezeichnet werden [3]. Dies umfasst permanente Protokolle (Audit Trails) von Inputs, Outputs, Entscheidungen und menschlichen Eingriffen [9]. Zudem wird der Einsatz einer sogenannten \"AI BOM\" (AI Bill of Materials) empfohlen, die ein Inventar aller Komponenten, Basismodelle und Datensätze eines Systems darstellt [9].\n*   **Abgestufte Autonomie (Graduated Autonomy):** Das Framework aus Singapur teilt KI-Systeme in fünf Autonomiestufen ein – von \"werkzeuggestützt\" (Level 0) bis \"vollautonom\" (Level 4) [6]. Die Intensität der Überwachung (z. B. durch einen Menschen in der Kontrollschleife) muss stets proportional zu den potenziellen Auswirkungen der Handlungen des Agenten steigen [6, 10].\n*   **Operator-Deployer-Responsibility:** Um Sicherheits- und Haftungslücken zu schließen, wird eine klare rechtliche und technische Trennung zwischen der Instanz, die die KI-Plattform baut (Operator), und dem Unternehmen, das den Agenten in einem spezifischen Kontext einsetzt (Deployer), definiert [6]. \n\nZusammenfassend lässt sich sagen, dass der Übergang zu einer \"Governance-first-Strategie\" unumgänglich ist, bei der KI-Agenten von vornherein mit fest eingebauten Sicherheitsvorkehrungen, Berechtigungsgrenzen und transparenten Entscheidungsprotokollen designt werden [11, 12].",
+  "conversation_id": "c2bb120e-0cc0-4498-bf7a-c591a94d8c6d",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "da9e37c2-3bf1-4246-bb74-dd6a0413ccf8",
+      "citation_number": 1,
+      "cited_text": "Chancen für die Verteidiger",
+      "start_char": 1728,
+      "end_char": 1755,
+      "chunk_id": "bcb948fe-84dc-4f61-bc64-e68489345aec",
+      "passage_id": null,
+      "answer_start_char": 1728,
+      "answer_end_char": 2250,
+      "score": 0.7656011178834164
+    },
+    {
+      "source_id": "da9e37c2-3bf1-4246-bb74-dd6a0413ccf8",
+      "citation_number": 2,
+      "cited_text": "TruffleNet-Angriffe: Cyberkriminelle setzen gestohlene AWS-Zugangsdaten ein",
+      "start_char": 3895,
+      "end_char": 3970,
+      "chunk_id": "9226aff0-601d-4ed9-aedc-4a45dde22169",
+      "passage_id": null,
+      "answer_start_char": 3895,
+      "answer_end_char": 4415,
+      "score": 0.7647906133001482
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 3,
+      "cited_text": "2.2 The NIST AI Agent Standards Initiative",
+      "start_char": 6720,
+      "end_char": 6762,
+      "chunk_id": "f1ec4bf2-1f48-41bf-a4d0-c38eba1fb3c3",
+      "passage_id": null,
+      "answer_start_char": 6720,
+      "answer_end_char": 7339,
+      "score": 0.7106218653746563
+    },
+    {
+      "source_id": "02179ecb-2875-4041-96b3-68244af4d2ac",
+      "citation_number": 4,
+      "cited_text": "Wichtig ist, dass wir auch darüber nachdenken, wie wir Unternehmen in die Lage versetzen können, ihre Widerstandsfähigkeit gegen KI-gestützte Angriffe zu stärken. KI macht es für Kriminelle einfacher und schneller, Angriffe zu starten. Die beste Verteidigung besteht darin, die \"Lernfläche\" zu verkleinern, so dass KI-Cyberbedrohungen weniger Möglichkeiten haben, den Angriff zu lernen, sich anzupassen und voranzutreiben.",
+      "start_char": 13172,
+      "end_char": 13594,
+      "chunk_id": "0ad77c01-a2e1-481a-a717-211076078a69",
+      "passage_id": null,
+      "answer_start_char": 13172,
+      "answer_end_char": 13741,
+      "score": 0.7235217184144983
+    },
+    {
+      "source_id": "02179ecb-2875-4041-96b3-68244af4d2ac",
+      "citation_number": 5,
+      "cited_text": "Mehr lesen",
+      "start_char": 14403,
+      "end_char": 14413,
+      "chunk_id": "271473ef-7ff2-4a1b-8c5a-e0cabb68a03b",
+      "passage_id": null,
+      "answer_start_char": 14403,
+      "answer_end_char": 14904,
+      "score": 0.7343546548828935
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 6,
+      "cited_text": "3. Asia-Pacific: Divergent Approaches, Converging Concerns",
+      "start_char": 8015,
+      "end_char": 8073,
+      "chunk_id": "880675b1-b92a-4430-8da9-5f475c667e1c",
+      "passage_id": null,
+      "answer_start_char": 8015,
+      "answer_end_char": 8887,
+      "score": 0.6828582417848369
+    },
+    {
+      "source_id": "7dbaf6ec-01e9-425c-8d6a-af9dfd595f57",
+      "citation_number": 7,
+      "cited_text": "Was macht interne KI-Systeme so anfällig?",
+      "start_char": 11833,
+      "end_char": 11874,
+      "chunk_id": "fdb49b31-a0ac-454a-917a-e60900e25ca7",
+      "passage_id": null,
+      "answer_start_char": 11833,
+      "answer_end_char": 12457,
+      "score": 0.7492943558544322
+    },
+    {
+      "source_id": "39898bc3-36ed-42d7-a79b-06dc5e6d192e",
+      "citation_number": 8,
+      "cited_text": "Die Ursache liegt oft in veralteter Infrastruktur. Legacy-Systeme und schlechte Datenqualität bremsen Initiativen aus oder stoppen sie ganz. Analysten prophezeien, dass bis 2027 über 40 Prozent aller KI-Agenten-Projekte an diesen Integrationsproblemen scheitern könnten. Statt Entlastung entsteht „Workslop“ – zusätzliche Komplexität durch schlecht designede Tools.",
+      "start_char": 4367,
+      "end_char": 4732,
+      "chunk_id": "400388ea-9a68-4669-bd09-5195f4c1b5ab",
+      "passage_id": null,
+      "answer_start_char": 4367,
+      "answer_end_char": 5131,
+      "score": 0.7299060242212434
+    },
+    {
+      "source_id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "citation_number": 9,
+      "cited_text": "Human in the loop (HITL). Operational pattern where a human reviews each AI decision before execution.",
+      "start_char": 15932,
+      "end_char": 16034,
+      "chunk_id": "8aa611f2-a9b6-4145-9c76-2eac2676a178",
+      "passage_id": null,
+      "answer_start_char": 15932,
+      "answer_end_char": 16648,
+      "score": 0.7147374348877287
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 10,
+      "cited_text": "5.2 The Monitoring Paradox",
+      "start_char": 13746,
+      "end_char": 13772,
+      "chunk_id": "e01ef7c6-f823-4b1e-91eb-9925215b6c84",
+      "passage_id": null,
+      "answer_start_char": 13746,
+      "answer_end_char": 14414,
+      "score": 0.6819198153945996
+    },
+    {
+      "source_id": "39898bc3-36ed-42d7-a79b-06dc5e6d192e",
+      "citation_number": 11,
+      "cited_text": "Singapurs Infocomm Media Development Authority (IMDA) reagierte am 22. Januar 2026 mit dem weltweit ersten Governance-Framework. Es gibt Leitlinien für Autonomie-Grenzen, menschliche Kontrollpunkte und kontinuierliche Überwachung. Die Botschaft ist klar: Ohne solide Leitplanken überwiegen die Risiken den Nutzen.",
+      "start_char": 5754,
+      "end_char": 6067,
+      "chunk_id": "b5943863-147a-43c4-be48-15fea7cfe577",
+      "passage_id": null,
+      "answer_start_char": 5754,
+      "answer_end_char": 6394,
+      "score": 0.6985409943075784
+    },
+    {
+      "source_id": "39898bc3-36ed-42d7-a79b-06dc5e6d192e",
+      "citation_number": 12,
+      "cited_text": "Notwendig wird ein fundamentales Umdenken im Design und Management autonomer Systeme. Investitionen in AI Security Posture Management gewinnen an Bedeutung, um die wachsenden KI-Ökosysteme sichtbar und kontrollierbar zu machen. Zentrale Risikomanagement-Teams und neue Rollen wie der Chief AI Officer werden zur Norm.",
+      "start_char": 6394,
+      "end_char": 6711,
+      "chunk_id": "73b528fc-ec99-472b-adae-7f5576bb3491",
+      "passage_id": null,
+      "answer_start_char": 6394,
+      "answer_end_char": 7278,
+      "score": 0.7598550172403968
+    }
+  ]
+}

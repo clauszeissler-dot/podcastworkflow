@@ -1,0 +1,104 @@
+{
+  "answer": "Der EU AI Act, das NIST AI Risk Management Framework (RMF) und die ISO/IEC 42001 greifen als Governance-System perfekt ineinander, da sie jeweils unterschiedliche, aber sich ergänzende Rollen übernehmen. Sie verbinden rechtliche Pflichten, operative Methodik und zertifizierbare Dokumentation zu einer ganzheitlichen Compliance-Strategie [1].\n\nIm Detail übernehmen die drei Frameworks folgende Funktionen in diesem Zusammenspiel:\n\n*   **EU AI Act (Die rechtlichen Verpflichtungen):** Das europäische Gesetz nutzt einen stufenbasierten Ansatz und klassifiziert KI-Systeme nach ihrem Risiko (von minimalem bis zu inakzeptablem Risiko) [2]. Diese Einstufung ist der Ausgangspunkt, da sie die **spezifischen juristischen Pflichten** definiert, die ein Unternehmen zwingend erfüllen muss [1]. Der EU AI Act liefert somit die \"Sprache der Verpflichtungen\" [3].\n*   **NIST AI RMF (Die operative Disziplin):** Das vom US-amerikanischen National Institute of Standards and Technology entwickelte Framework stuft Systeme nicht nach festen Risikoklassen ein, sondern liefert eine **funktionale Struktur** für den Alltag [1]. Es basiert auf den vier Säulen **Govern, Map, Measure und Manage** (Steuern, Erfassen, Messen, Verwalten) [1, 2]. NIST bietet die strukturelle Grammatik und die methodischen Werkzeuge, um die vom EU AI Act geforderten Risiken unabhängig von der Risikostufe in der Praxis operativ zu steuern und zu minimieren [1, 3].\n*   **ISO/IEC 42001 (Die auditierbare Zertifizierung):** Dieser internationale Standard für KI-Managementsysteme (AIMS) stellt skalierbare Anforderungen an das Management auf [1]. Er dient dazu, die gesetzliche Konformität und die operative Umsetzung in einem **revisionssicheren Format** zu dokumentieren [1]. Eine ISO-Zertifizierung fungiert für multinationale Unternehmen wie ein \"Compliance-Reisepass\", der Aufsichtsbehörden über verschiedene Gerichtsbarkeiten hinweg die Reife der eigenen Governance belegt [4]. Zudem kann sie als Nachweis für die Konformitätsbewertung unter dem EU AI Act genutzt werden [2, 5].\n\n**Der praktische Ansatz für Unternehmen (Wie sie ineinandergreifen)**\n\nIn der Praxis wird empfohlen, diese drei Bausteine als aufeinander aufbauenden Prozess zu nutzen: \n1. Unternehmen **klassifizieren zunächst jedes eingesetzte KI-System nach den Risikostufen des EU AI Acts**, um die rechtlichen Pflichten eindeutig zu bestimmen [1, 6]. \n2. Anschließend **wenden sie die Funktionen des NIST RMF auf alle Systeme an**, um im Unternehmensalltag eine konsistente operative Disziplin bei der Risikokontrolle sicherzustellen [1]. \n3. Zuletzt **weisen sie diese Konformität durch die Struktur und Dokumentation nach ISO/IEC 42001 nach**, um auditierbare Beweise für Aufsichtsbehörden zu schaffen [1, 6].\n\nDurch die Kombination dieser Standards – beispielsweise eines ISO 42001-Systems mit den detaillierten Risiko-Methoden des NIST-Frameworks – entsteht ein äußerst belastbarer Governance-Rahmen [7]. Dieser Ansatz stellt sicher, dass Unternehmen nicht nur gesetzlichen und ethischen Anforderungen gerecht werden, sondern auch eine solide Basis haben, um künftigen oder internationalen Regulierungen souverän zu begegnen [7, 8].",
+  "conversation_id": "c2bb120e-0cc0-4498-bf7a-c591a94d8c6d",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "citation_number": 1,
+      "cited_text": "FAQ · AI governance vocabulary",
+      "start_char": 19161,
+      "end_char": 19191,
+      "chunk_id": "29cbfe6b-4df4-49a5-8958-0bb2f20f1848",
+      "passage_id": null,
+      "answer_start_char": 19161,
+      "answer_end_char": 19902,
+      "score": 0.7999448363387747
+    },
+    {
+      "source_id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "citation_number": 2,
+      "cited_text": "Each entry includes the article or section citation, a plain-language definition, and a worked example showing how legal, compliance, risk, and product teams should apply it. This glossary is built for cross-functional legal-and- engineering reviews where shared terminology is the unblocker.",
+      "start_char": 1609,
+      "end_char": 1901,
+      "chunk_id": "42c92eb9-9eaa-4082-96a1-d4087b0414ae",
+      "passage_id": null,
+      "answer_start_char": 1609,
+      "answer_end_char": 3353,
+      "score": 0.7812304921430917
+    },
+    {
+      "source_id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "citation_number": 3,
+      "cited_text": "Bias mitigation. Manage-function activities to reduce harmful bias in AI systems. Includes data curation, model selection, post-processing, and ongoing monitoring.",
+      "start_char": 8588,
+      "end_char": 8751,
+      "chunk_id": "2ab0f5d2-c834-47e2-b8ca-49513ef83ebc",
+      "passage_id": null,
+      "answer_start_char": 8588,
+      "answer_end_char": 9103,
+      "score": 0.7672627241400654
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 4,
+      "cited_text": "Phase 2: Implementation (Q2 – Q3 2026)",
+      "start_char": 16156,
+      "end_char": 16194,
+      "chunk_id": "8aae4fac-c161-470d-aa60-b74eae8aa02e",
+      "passage_id": null,
+      "answer_start_char": 16156,
+      "answer_end_char": 16849,
+      "score": 0.7597223456509943
+    },
+    {
+      "source_id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "citation_number": 5,
+      "cited_text": "International standard for AI management systems (AIMS), published December 2023. Certifiable; provides evidence of conformity for EU AI Act and other regulatory frameworks.",
+      "start_char": 9103,
+      "end_char": 9276,
+      "chunk_id": "8136f37c-3f1a-43e0-9286-48603cce583a",
+      "passage_id": null,
+      "answer_start_char": 9103,
+      "answer_end_char": 9698,
+      "score": 0.7723978025680677
+    },
+    {
+      "source_id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "citation_number": 6,
+      "cited_text": "The shape of AI governance vocabulary · April 2026",
+      "start_char": 17161,
+      "end_char": 17211,
+      "chunk_id": "88d9ce5b-3a99-42f1-969c-dbd67f9ac273",
+      "passage_id": null,
+      "answer_start_char": 17161,
+      "answer_end_char": 17851,
+      "score": 0.7624649799375327
+    },
+    {
+      "source_id": "64463d15-b931-4cec-bc68-700ff4a689c1",
+      "citation_number": 7,
+      "cited_text": "Praxis-Tipp: Viele Unternehmen kombinieren diese Standards – etwa ein ISO 42001-System mit risikoorientierten Ergänzungen aus dem NIST-Framework. Dadurch entsteht ein tragfähiger Governance-Rahmen, der sowohl Compliance-Anforderungen als auch ethischen Erwartungen gerecht wird.",
+      "start_char": 9558,
+      "end_char": 9836,
+      "chunk_id": "0487439e-3910-4161-8b28-899c4666ff9d",
+      "passage_id": null,
+      "answer_start_char": 9558,
+      "answer_end_char": 10248,
+      "score": 0.8206006409947453
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 8,
+      "cited_text": "7. The Regulatory Landscape Is Converging — Slowly",
+      "start_char": 17422,
+      "end_char": 17472,
+      "chunk_id": "6eea4548-eccb-4a8c-bd54-ffa1d3583122",
+      "passage_id": null,
+      "answer_start_char": 17422,
+      "answer_end_char": 18400,
+      "score": 0.7313423420861754
+    }
+  ]
+}

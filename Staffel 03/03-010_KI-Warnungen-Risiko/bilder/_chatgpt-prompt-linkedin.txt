@@ -1,0 +1,24 @@
+═══════════════════════════════════════════════════════════════════
+ChatGPT-Image-Prompt — LinkedIn-Bild (Folge 34 / 03-010, Deep-Dive-Post)
+═══════════════════════════════════════════════════════════════════
+
+▼ REFERENZEN IN CHATGPT HOCHLADEN:
+  1) Profilansichten zuerst: assets\000_PP-1_1737365716504.jpg + assets\001_PP-2_1737365716276.jpg — Hauptreferenz fürs Gesicht
+  2) Logo: OneDrive\Bilder\KI AffAIrs\ki_affairs_logo_transparent_clean.png
+  3) Skyline: OneDrive\Bilder\KI AffAIrs\dortmund_skyline_ki_affairs_logo.png (als Fenster-Ausblick — hier ideal)
+
+▼ PROMPT (alles ab hier in ChatGPT einfügen):
+
+Erstelle ein kinoreifes, fotorealistisches 16:9-Querformat im Stil "Dark-Tech Ruhrgebiet" / Tech-Noir, in der Stimmung von Blade Runner 2049.
+
+Wichtig zur Referenz: Ich füge echte Profilfotos von Claus bei (000_PP-1 und 001_PP-2) — verbindliche Hauptreferenz für ein exaktes, konsistentes, fotorealistisches Gesicht; übernimm Gesichtszüge, Frisur und Alter präzise. Claus ist eine reale Person, kein Roboter. Außerdem beigefügt: das KI-AffAIrs-Hexagon-Logo und eine nächtliche Dortmund-/Ruhrgebiet-Skyline als Vorlage für den Fenster-Ausblick.
+
+Szene: ein moderner, dunkler, leerer Boardroom bei Nacht. Am Kopfende eines langen Glastisches schwebt ein autonomer KI-Akteur als eleganter, transluzenter, leuchtend oranger (#E97132) Hologramm-Strom aus fließenden Daten- und Neural-Mustern — kein niedlicher Roboter, keine Person —, der eigenständig ein leuchtendes Vertrags-Dokument über dem Tisch ausarbeitet. Rechts im Vordergrund steht Claus (Mitte 40, kurze dunkle Haare, dunkler Blazer, exakt nach den Fotos), ruhig und souverän an einem leuchtenden cyan-tealfarbenen (#2EC4C6) Governance-Pult mit dezentem cyan Schild-Symbol; als menschliche Aufsicht begleitet er die Freigabe und prüft sie aufmerksam, Blick ruhig zum Hologramm. Hintergrund: durch die Fensterfront die beigefügte nächtliche Dortmund-/Ruhrgebiet-Skyline, in tiefes Blau-Teal getaucht. Klare Tiefe vorn/mitte/hinten, dramatisches Rim-Light, volumetrischer Dunst. Elegante Spannung zwischen Orange (KI-Autonomie) und Cyan-Teal (menschliche Governance), Cyan dominant.
+
+Text-Regel: kein Badge, kein Fließtext, keine Pseudo-Buchstaben. Einzige Ausnahme: das beigefügte KI-AffAIrs-Hexagon-Logo unten rechts, Buchstaben "KI" in Cyan-Teal und Orange, lesbar und unverzerrt, klein, kein Billboard.
+
+▼ HINWEISE:
+- 000_PP-1 zuerst hochladen (klareres Frontal-Portrait), 001_PP-2 als zweite Referenz.
+- Bei schwacher Ähnlichkeit: Claus näher/größer in den Vordergrund holen, Gesicht stärker ins Rim-Light, "Gesicht exakt nach den beiden Fotos" wiederholen.
+- Färbt das Orange-Hologramm zu sehr ins Bild: "Cyan dominant" verstärken.
+- Variante MIT dir prominenter (statt personenlos): so wie hier — nutzt deine Profilansichten und stärkt die Botschaft "Mensch behält Kontrolle".

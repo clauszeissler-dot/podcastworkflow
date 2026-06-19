@@ -1,0 +1,68 @@
+{
+  "answer": "Das Kernproblem bei der Haftung von autonomen KI-Agenten, die eigenständig Verträge abschließen oder Entscheidungen treffen, ist die **Zurechenbarkeit der rechtlichen Verantwortung** (Liability Attribution Problem) [1]. \n\nIm Detail äußert sich dieses Problem durch folgende Faktoren:\n\n*   **Bruch der klassischen Haftungskette:** Bestehende Produkthaftungssysteme gehen von einer eindeutigen Verantwortungskette vom Hersteller bis zum Endverbraucher aus [1]. Autonome KI-Agenten durchbrechen diese Kette, da das „Produkt“ eigenständige Entscheidungen trifft und Handlungen ausführt, die von seinen Schöpfern nicht spezifisch autorisiert oder im Vorfeld vorhergesehen wurden [1].\n*   **Verwischte Verantwortungsgrenzen:** Wenn ein autonomer Agent beispielsweise fehlerhafte Finanztransaktionen durchführt, unautorisierte Kommunikationen versendet oder Datenlecks und finanzielle Verluste verursacht, ist völlig unklar, wer dafür juristisch haftbar gemacht werden kann [1, 2]. Es stellt sich die Frage, ob der KI-Entwickler, das einsetzende Unternehmen, der Endnutzer (der die Aufgabe initiiert hat) oder gar der Agent selbst die Verantwortung trägt [1].\n*   **Fehlende Regulierungsansätze:** Große aktuelle Regelwerke wie der EU AI Act oder das NIST-Framework wurden ursprünglich für KI-Systeme konzipiert, die menschliche Entscheidungsfindungen lediglich *unterstützen* [3]. Sie sind nicht darauf ausgelegt, Systeme zu regulieren, die ohne kontinuierliche menschliche Überwachung in der realen Welt eigene Entscheidungen treffen und ausführen [3, 4].\n\nUm diese juristische Grauzone zu schließen, entstehen derzeit erste Lösungsansätze. So hat Singapur als Vorreiter ein Framework für agentische KI vorgestellt, das ein **Operator-Deployer-Verantwortungsmodell** beinhaltet [5]. Dieses soll eine klare Aufteilung der Haftung zwischen der Instanz, die die KI-Plattform baut (Operator), und dem Unternehmen, das den Agenten in einem spezifischen Kontext einsetzt (Deployer), rechtlich definieren [5].",
+  "conversation_id": "c2bb120e-0cc0-4498-bf7a-c591a94d8c6d",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 1,
+      "cited_text": "This governance gap creates three urgent challenges:",
+      "start_char": 13137,
+      "end_char": 13189,
+      "chunk_id": "f046eab2-f0e5-43e1-bef2-6b96ce767fb3",
+      "passage_id": null,
+      "answer_start_char": 13137,
+      "answer_end_char": 13746,
+      "score": 0.8171823080571348
+    },
+    {
+      "source_id": "39898bc3-36ed-42d7-a79b-06dc5e6d192e",
+      "citation_number": 2,
+      "cited_text": "Die Ursache liegt oft in veralteter Infrastruktur. Legacy-Systeme und schlechte Datenqualität bremsen Initiativen aus oder stoppen sie ganz. Analysten prophezeien, dass bis 2027 über 40 Prozent aller KI-Agenten-Projekte an diesen Integrationsproblemen scheitern könnten. Statt Entlastung entsteht „Workslop“ – zusätzliche Komplexität durch schlecht designede Tools.",
+      "start_char": 4367,
+      "end_char": 4732,
+      "chunk_id": "c2f6e151-8414-4df9-84f1-702c734c7fce",
+      "passage_id": null,
+      "answer_start_char": 4367,
+      "answer_end_char": 5131,
+      "score": 0.8005524865892218
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 3,
+      "cited_text": "4.3 The G7 Hiroshima AI Process",
+      "start_char": 12183,
+      "end_char": 12214,
+      "chunk_id": "83633638-c1d4-4dc0-a0cd-c562039020c3",
+      "passage_id": null,
+      "answer_start_char": 12183,
+      "answer_end_char": 13137,
+      "score": 0.722588601215967
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 4,
+      "cited_text": "5.2 The Monitoring Paradox",
+      "start_char": 13746,
+      "end_char": 13772,
+      "chunk_id": "ec0e91d2-71a2-476c-afc8-3923be467e8c",
+      "passage_id": null,
+      "answer_start_char": 13746,
+      "answer_end_char": 14414,
+      "score": 0.7485545192262721
+    },
+    {
+      "source_id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "citation_number": 5,
+      "cited_text": "3. Asia-Pacific: Divergent Approaches, Converging Concerns",
+      "start_char": 8015,
+      "end_char": 8073,
+      "chunk_id": "d0efbbcb-c62c-4c3c-8048-69f2cdd6aa2c",
+      "passage_id": null,
+      "answer_start_char": 8015,
+      "answer_end_char": 8887,
+      "score": 0.6905871023705816
+    }
+  ]
+}

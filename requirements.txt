@@ -1,0 +1,8 @@
+# Python-Abhängigkeiten der Podcast-Pipeline-Tools (tools/*.py)
+# Alles Übrige ist Python-Standardbibliothek.
+#
+# Die NotebookLM-CLI (notebooklm-py) wird NICHT hier installiert, sondern in einer
+# eigenen venv über das separate Repo NotebookLM-Skill-MCP (siehe SETUP.md, Schritt 2.2).
+
+requests>=2.31
+Pillow>=10.0

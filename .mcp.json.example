@@ -1,0 +1,20 @@
+{
+  "_hinweis": "Vorlage. Nach .mcp.json kopieren und alle <PLATZHALTER> durch echte absolute Pfade deines Geräts ersetzen. Siehe SETUP.md, Schritt 2.4.",
+  "mcpServers": {
+    "notebooklm": {
+      "command": "<ABS_PFAD>/NotebookLM-Skill-MCP/.venv/Scripts/python.exe",
+      "args": ["<ABS_PFAD>/NotebookLM-Skill-MCP/mcp-server/server.py"],
+      "env": {
+        "NOTEBOOKLM_DOWNLOAD_DIR": "<ABS_PFAD>/notebooklm-downloads"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--user-data-dir",
+        "<ABS_PFAD>/podcast-browser-profile"
+      ]
+    }
+  }
+}

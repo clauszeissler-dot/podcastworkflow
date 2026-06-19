@@ -1,0 +1,14 @@
+Deep-Research-Prompt fuer Folge 03-009 "Deepfakes und digitale Gewalt"
+(im NotebookLM 9faa2c5c unter Sources -> Deep Research/Web ausgefuehrt; Quellen vom User geprueft & hinzugefuegt am 2026-06-01)
+
+Bitte fuehre einen Deep Research durch, um folgende Luecken in meinen bestehenden Quellen zum Thema "Deepfakes und digitale Gewalt" zu schliessen:
+
+1. Durchsetzbarkeit: Wie koennen Loesch- und Auskunftsansprueche von Betroffenen gegen unkooperative, dezentrale oder im Ausland (ausserhalb von EU/US) ansaessige Plattformen (wie z.B. Telegram) in der Praxis juristisch und technisch durchgesetzt werden?
+
+2. Watermarking-Standards: Welche konkreten technischen Standards (z.B. C2PA) sieht der EU AI Act fuer die Kennzeichnung von KI-Inhalten vor, wie faelschungssicher sind diese und wie lassen sie sich bei Open-Source-KIs kontrollieren?
+
+3. Politische Deepfakes: Welche spezifischen Gesetze oder EU-Strategien existieren, um politische Deepfakes und gezielte Wahlbeeinflussung zu bekaempfen (abseits des US-Rechts und allgemeiner deutscher Ehrdelikte wie Paragraf 201b StGB)?
+
+4. Taeteridentifikation im Zivilrecht: Welche konkreten Instrumente sieht das deutsche oder europaeische Zivilrecht vor, um anonyme Taeter bei digitaler Gewalt zu identifizieren, wenn Plattformen keine Klarnamenpflicht haben?
+
+5. Praevention: Welche etablierten, staatlich gefoerderten Praeventionsprogramme, Taeterarbeits-Konzepte oder Schulungskonzepte zur Medienkompetenz gibt es in Deutschland/Europa im spezifischen Bereich der bildbasierten sexuellen Gewalt und Deepfakes?

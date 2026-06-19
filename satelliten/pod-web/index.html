@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Preconnect hints FIRST to establish connections before any other parsing -->
+    <link rel="preconnect" href="https://wmxnsjbkfmbavpuowqhx.supabase.co" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.gpteng.co" crossorigin />
+    <link rel="dns-prefetch" href="https://wmxnsjbkfmbavpuowqhx.supabase.co" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://cdn.gpteng.co" />
+
+    <!-- Google Analytics 4 - loads only if user consented -->
+    <script>
+      window.GA_MEASUREMENT_ID = 'G-LHBCQ6LDHD';
+      window.loadGoogleAnalytics = function() {
+        if (window.gaLoaded) return;
+        window.gaLoaded = true;
+        var s = document.createElement('script');
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.GA_MEASUREMENT_ID;
+        s.async = true;
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', window.GA_MEASUREMENT_ID, { anonymize_ip: true });
+      };
+      // Auto-load if user already consented
+      try {
+        var consent = JSON.parse(localStorage.getItem('ki-affairs-cookie-consent') || '{}');
+        if (consent.analytics) window.addEventListener('load', function() { setTimeout(window.loadGoogleAnalytics, 100); });
+      } catch(e) {}
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KI AffAIrs - Der Podcast zwischen Fortschritt und Verantwortung</title>
+    <meta name="description" content="Wöchentlich: Mo Quickie (2-3 Min), Do Volle Folge (12-25 Min). Deutsch, English, Filipino." />
+    <meta name="keywords" content="KI Podcast, AI Podcast, Künstliche Intelligenz, Artificial Intelligence" />
+    <meta name="author" content="KI AffAIrs" />
+    <meta name="theme-color" content="#121212" />
+
+    <link rel="icon" href="/favicon-ki.png?v2" type="image/png" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KI AffAIrs" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="KI AffAIrs - Der Podcast zwischen Fortschritt und Verantwortung" />
+    <meta property="og:description" content="Wöchentlich: Mo Quickie (2-3 Min), Do Volle Folge (12-25 Min). DE, EN, TL." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="KI AffAIrs" />
+    <meta property="og:image" content="https://www.kiaffairs-podcast.de/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KI AffAIrs" />
+    <meta name="twitter:description" content="Der Podcast zwischen Fortschritt und Verantwortung" />
+    <meta name="twitter:image" content="https://www.kiaffairs-podcast.de/og-image.png" />
+    
+    <!-- Critical CSS for above-the-fold content to reduce render blocking -->
+    <style>
+      :root{--background:0 0% 7%;--foreground:0 0% 100%;--primary:24 95% 53%;--primary-foreground:0 0% 100%;--muted:0 0% 15%;--muted-foreground:0 0% 64%}
+      *,::before,::after{box-sizing:border-box;border:0 solid}
+      html{line-height:1.5;font-family:Inter,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+      body{margin:0;background-color:hsl(var(--background));color:hsl(var(--foreground));min-height:100vh;overflow-x:hidden}
+      #root{min-height:100vh;display:flex;flex-direction:column;overflow-x:hidden}
+      /* Header critical styles */
+      header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(18,18,18,.8);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.1)}
+      nav{max-width:1280px;margin:0 auto;padding:1rem}
+      .container{width:100%;max-width:1280px;margin:0 auto;padding:0 1rem}
+      /* Hero critical styles */
+      section#home{min-height:100vh;display:flex;align-items:flex-start;justify-content:center;padding-top:5rem}
+      .text-gradient-primary{background:linear-gradient(135deg,hsl(var(--primary)),hsl(24 100% 65%));-webkit-background-clip:text;background-clip:text;color:transparent}
+      /* Flexbox utilities */
+      .flex{display:flex}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}
+      .gap-2{gap:.5rem}.gap-4{gap:1rem}
+      /* Spacing */
+      .px-4{padding-left:1rem;padding-right:1rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-20{padding-top:5rem;padding-bottom:5rem}
+      .mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-12{margin-bottom:3rem}
+      /* Text */
+      .text-center{text-align:center}.text-xl{font-size:1.25rem}.text-2xl{font-size:1.5rem}.font-bold{font-weight:700}
+      /* Hide skip nav by default */
+      .skip-nav{position:absolute;left:-9999px}
+      .skip-nav:focus{position:fixed;top:0;left:0;z-index:9999;padding:1rem;background:hsl(var(--background));color:hsl(var(--foreground))}
+    </style>
+
+    <!-- Preload fonts - use display=optional to prevent CLS from font swap -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@400;500;600&display=optional" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@400;500;600&display=optional" /></noscript>
+
+    <!-- Preload LCP hero image only on desktop via media query -->
+    <link rel="preload" href="/hero-ki-affairs-optimized.webp" as="image" type="image/webp" fetchpriority="high" media="(min-width: 768px)" />
+    <link rel="preload" href="/hero-ai-affairs-optimized.webp" as="image" type="image/webp" media="(min-width: 768px)" />
+
+    <!-- Secondary resource hints for embeds -->
+    <link rel="dns-prefetch" href="https://embed-cdn.spotifycdn.com" />
+    <link rel="dns-prefetch" href="https://open.spotify.com" />
+    <link rel="dns-prefetch" href="https://www.youtube.com" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

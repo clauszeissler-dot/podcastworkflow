@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════════════
+ChatGPT-Image-Prompt — Podcast-Thumbnail DEEP DIVE (Folge 34 / 03-010)
+═══════════════════════════════════════════════════════════════════════
+
+▼ REFERENZEN IN CHATGPT HOCHLADEN (Reihenfolge wichtig):
+  1) Detailbild zuerst: dein hochauflösendes Portrait/Render — Hauptreferenz fürs Gesicht
+  2) Profilansichten: assets\000_PP-1_1737365716504.jpg + assets\001_PP-2_1737365716276.jpg
+  3) Logo: OneDrive\Bilder\KI AffAIrs\ki_affairs_logo_transparent_clean.png
+  → Skyline OPTIONAL: OneDrive\Bilder\KI AffAIrs\dortmund_skyline_ki_affairs_logo.png
+     (nur wenn du die Variante mit teal Fenster-Ausblick willst — siehe Hinweise).
+
+▼ PROMPT (alles ab hier in ChatGPT einfügen):
+
+Nutze die beigefügten Bilder ausschließlich als Referenz, nicht als Vorlage zum Einfügen. Die beigefügten Fotos von Claus sind die verbindliche Vorlage für ein exakt fotorealistisches, über das ganze Bild konsistentes Gesicht: Claus ist Mitte 40, kurze dunkle, seitlich gescheitelte Haare, helle blaugraue Augen, freundlich-souveräner Ausdruck, dunkler Blazer über einem fein gemusterten Hemd. Er ist ein echter, lebendiger Mensch, niemals ein Roboter und niemals karikiert. Verwende das beigefügte KI-AffAIrs-Hexagon-Logo (Buchstaben "KI" in Cyan-Teal und Orange) nur dezent als kleines, leuchtendes Marken-Emblem unten rechts, unverzerrt und mit lesbarem "KI".
+
+Erzeuge ein kinoreifes 16:9-Querformat im Stil "Dark-Tech Ruhrgebiet" / Tech-Noir, Stimmung wie Blade Runner 2049: fotorealistisch, hoher Detailgrad, dramatisches Rim-Light und volumetrischer teal Dunst. Claus steht ruhig und souverän an einer transluzenten Holo-Konsole, die Hände locker aufgelegt, und blickt konzentriert nach unten. Im Vordergrund greifen mehrere große leuchtende cyan-teal (#2EC4C6) Zahnräder sauber ineinander und führen lose orange (#E97132) Datenfragmente, die sanft von rechts hereindriften, ruhig zu einer klaren, geordneten Struktur zusammen. Darüber schwebt ein leuchtendes cyan Schild-mit-Schloss-Symbol als Sinnbild für verlässliche Ordnung und Vertrauen. Cyan-teal ist klar dominant, orange nur Akzent. Hintergrund: tiefer Kontrollraum mit Serverschränken und ruhiger Industrie-Anmutung.
+
+Einziger Text im ganzen Bild: oben links eine dunkle, metallene Badge-Plakette mit ausschließlich den zwei Wörtern DEEP DIVE, exakt buchstabiert, fette Versalien, klare serifenlose Schrift in Cyan-Teal. Sonst nirgends Text: Holo-Konsole, Schild, Zahnräder und Server tragen keinerlei Buchstaben, Ziffern oder Pseudo-Glyphen.
+
+▼ HINWEISE:
+- Reihenfolge: zuerst Detailbild/Profilfotos hochladen, dann das Logo — so verankert ChatGPT zuerst das Gesicht.
+- Skyline-Variante (optional): Wenn du die Skyline mitlädst, ergänze im Prompt am Ende des Szene-Absatzes:
+  "Seitlich im Hintergrund eine Fensterfront mit der beigefügten nächtlichen Dortmund-Skyline, in teal getaucht."
+- Bei zu geringer Ähnlichkeit: blaugraue Augen, seitlicher Scheitel, gemustertes Hemd unter dem Blazer betonen und
+  "exakt wie Referenzfoto, fotorealistisch, kein generisches Gesicht" ergänzen.
+- Bei Text-Artefakten: wiederholen, dass nur die Badge DEEP DIVE Text trägt.

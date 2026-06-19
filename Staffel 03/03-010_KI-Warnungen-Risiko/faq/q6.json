@@ -1,0 +1,32 @@
+{
+  "answer": "Die **AI-Literacy-Pflicht (KI-Kompetenz)** im EU AI Act verpflichtet alle Organisationen, die innerhalb der EU KI-Systeme entwickeln oder einsetzen, **Maßnahmen zur KI-Bildung für ihre Belegschaft zu etablieren** [1]. Dies bedeutet, dass Unternehmen sicherstellen und nachweisen müssen, dass ihre Mitarbeitenden über eine angemessene Kompetenz im Umgang mit KI-Systemen verfügen [1]. \n\nBezüglich der Frist gilt laut dem offiziellen Zeitplan der Europäischen Kommission: Die Verpflichtung zur KI-Kompetenz trat – parallel zum Verbot von KI-Praktiken mit inakzeptablem Risiko – bereits am **2. Februar 2025** in Kraft [2].\n\n*(Hinweis: Ein in den Quellen zitiertes Compliance-Verzeichnis nennt abweichend den 2. Februar 2026 als Frist für diese Bestimmung [1]. Die offizielle Webseite der EU-Kommission bestätigt jedoch verbindlich das Inkrafttreten der AI-Literacy-Pflicht zum Februar 2025 [2].)*",
+  "conversation_id": "c2bb120e-0cc0-4498-bf7a-c591a94d8c6d",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "0861567e-c30d-4e01-bbcf-8baff4d62f1f",
+      "citation_number": 1,
+      "cited_text": "[Must Comply Regulation EU Unacceptable risk",
+      "start_char": 7926,
+      "end_char": 7970,
+      "chunk_id": "3d400caf-2354-461d-85ee-1dc00990cd84",
+      "passage_id": null,
+      "answer_start_char": 7926,
+      "answer_end_char": 8599,
+      "score": 0.7598410520657806
+    },
+    {
+      "source_id": "e3bfdcc4-9a83-446e-bf18-d7ade2eb2e2e",
+      "citation_number": 2,
+      "cited_text": "Application timeline",
+      "start_char": 10595,
+      "end_char": 10615,
+      "chunk_id": "829337ef-d18b-43ad-81f7-d8c3720e1b5a",
+      "passage_id": null,
+      "answer_start_char": 10595,
+      "answer_end_char": 11155,
+      "score": 0.7380446045998658
+    }
+  ]
+}

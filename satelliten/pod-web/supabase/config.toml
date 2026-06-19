@@ -1,0 +1,10 @@
+project_id = "wmxnsjbkfmbavpuowqhx"
+
+[functions.detect-language]
+verify_jwt = false
+
+[functions.subscribe-newsletter]
+verify_jwt = false
+
+[functions.sync-podcast-episodes]
+verify_jwt = false

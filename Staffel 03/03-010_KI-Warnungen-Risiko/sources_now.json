@@ -1,0 +1,317 @@
+﻿{
+  "notebook_id": "4d7d4b25-b648-482d-9fbf-71b93547fb96",
+  "notebook_title": "03-010 KI-Warnungen und Risiko",
+  "sources": [
+    {
+      "index": 1,
+      "id": "7dbaf6ec-01e9-425c-8d6a-af9dfd595f57",
+      "title": "2026 wird hart: KI Sicherheitsrisiken explodieren! Was Unternehmen sofort tun müssen.",
+      "type": "web_page",
+      "url": "https://digitalhandwerk.rocks/ki/2026-wird-hart-ki-sicherheitsrisiken-explodieren-was-unternehmen-sofort-tun-muessen/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 2,
+      "id": "e3bfdcc4-9a83-446e-bf18-d7ade2eb2e2e",
+      "title": "AI Act | Shaping Europe's digital future",
+      "type": "web_page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 3,
+      "id": "6f77f620-4ace-4121-bbff-e1586ec7e2fb",
+      "title": "AI Compliance & Governance Glossary 2026: 100 Terms",
+      "type": "web_page",
+      "url": "https://www.digitalapplied.com/blog/ai-compliance-governance-glossary-2026-eu-act-nist",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 4,
+      "id": "15cf4a59-9e55-4c66-bc66-b5d8bd5bc034",
+      "title": "AI Governance and Regulation 2026: A Complete Guide to Global Frameworks",
+      "type": "web_page",
+      "url": "https://www.hungyichen.com/en/insights/ai-governance-regulatory-landscape-2026",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 5,
+      "id": "0861567e-c30d-4e01-bbcf-8baff4d62f1f",
+      "title": "AI Regulations & Compliance Frameworks Directory | 74+ Entries | AI Governance Institute",
+      "type": "web_page",
+      "url": "https://aigovernance.com/directory",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 6,
+      "id": "9afead2f-efd0-467c-93f7-b8aca2c96ab2",
+      "title": "AI in Jan. 2026: Three Critical Global Decisions — 'global AI operating system' | Educational Technology and Change Journal",
+      "type": "web_page",
+      "url": "https://etcjournal.com/2025/12/28/ai-in-jan-2026-three-critical-global-decisions-global-ai-operating-system/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 7,
+      "id": "64463d15-b931-4cec-bc68-700ff4a689c1",
+      "title": "AI-Governance & EU-AI-Act: Was jetzt zählt - SoSafe",
+      "type": "web_page",
+      "url": "https://sosafe-awareness.com/de/blog/ki-ai-governance/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 8,
+      "id": "784ced3c-629d-4305-a39c-b51e93e3423e",
+      "title": "COMPLION",
+      "type": "web_page",
+      "url": "https://complion.de/digital-compliance-blog/ki-wird-erwachsen-die-neuen-governance-sicherheits-und-compliance-anforderungen-fuer...",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 9,
+      "id": "c9aa7f66-38ed-4cab-b035-91a647fc1ff6",
+      "title": "DER SPIEGEL | Online-Nachrichten",
+      "type": "web_page",
+      "url": "https://www.spiegel.de/kultur/gesellschaft/katar-al-jazeera-muss-bueros-in-saudi-arabien-und-jordanien-schliessen-zensur-a-11511...",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 10,
+      "id": "02179ecb-2875-4041-96b3-68244af4d2ac",
+      "title": "Das Framework eines Sicherheitspraktikers für KI-Sicherheit und Schutz - Illumio Cybersicherheit Blog | Illumio",
+      "type": "web_page",
+      "url": "https://www.illumio.com/de/blog/security-practitioners-framework-ai-safety-security",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 11,
+      "id": "ed64ba83-501e-4807-8cbc-42dc4f839443",
+      "title": "EU AI Act 2026: Neue Pflichten für Unternehmen",
+      "type": "web_page",
+      "url": "https://heydata.eu/magazin/der-eu-ai-act-veraendert-corporate-compliance-ab-2026/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 12,
+      "id": "6e14c2ad-0168-4387-bf64-024e66816a09",
+      "title": "EU AI Act 2026: Was Unternehmen jetzt wissen müssen | Ventum Consulting",
+      "type": "web_page",
+      "url": "https://www.ventum-consulting.com/news/eu-ai-act-2026/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 13,
+      "id": "034df6d5-567e-46e4-b84c-6c2a3fc133b5",
+      "title": "GRC 2026: Verantwortung, Resilienz und Dauerbelastung",
+      "type": "web_page",
+      "url": "https://swissgrc.com/grc-2026-verantwortung-resilienz-und-dauerbelastung/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 14,
+      "id": "49423eea-8512-45e8-bdf7-0687a91ea0ba",
+      "title": "Global AI Governance Map: 140+ institutions - EvalCommunity Academy",
+      "type": "web_page",
+      "url": "https://academy.evalcommunity.com/global-ai-governance-map-140-institutions/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 15,
+      "id": "f70a83fc-501c-40f0-9fd2-a8cfe20d04a1",
+      "title": "Global AI Governance Overview: Understanding Regulatory Requirements Across Global Jurisdictions",
+      "type": "web_page",
+      "url": "https://arxiv.org/html/2512.02046",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 16,
+      "id": "f35d2dab-b052-48d1-9e73-436aa17afe79",
+      "title": "Global AI Governance: Five Key Frameworks Explained | Insights & Events | Bradley",
+      "type": "web_page",
+      "url": "https://www.bradley.com/insights/publications/2025/08/global-ai-governance-five-key-frameworks-explained",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 17,
+      "id": "918a0493-2bb7-4856-8661-0334a836cc01",
+      "title": "Global Approaches to AI Governance: Policy, Legal, and Regulatory Perspectives",
+      "type": "web_page",
+      "url": "https://www.aigl.blog/global-approaches-to-ai-governance-policy-legal-and-regulatory-perspectives/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 18,
+      "id": "991af59f-e942-4543-8d24-8f18df7bfe58",
+      "title": "Global Risks Report 2026: Risiken im Wettbewerbszeitalter",
+      "type": "web_page",
+      "url": "https://swissgrc.com/global-risks-report-2026-wie-geopolitik-ki-und-gesellschaftliche-spannungen-risiken-neu-formen/",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 19,
+      "id": "da9e37c2-3bf1-4246-bb74-dd6a0413ccf8",
+      "title": "Google warnt: KI und die neue Ära der Cyberangriffe - All About Security Das Online-Magazin zu Cybersecurity (Cybersicherheit). Ransomware, Phishing, IT-Sicherheit, Netzwerksicherheit, KI, Threats, DDoS, Identity & Access, Plattformsicherheit",
+      "type": "web_page",
+      "url": "https://www.all-about-security.de/vorbereitung-auf-kuenftige-cyberbedrohungen-google-veroeffentlicht-cybersecurity-forecast-2026...",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 20,
+      "id": "29f5a12d-dd05-4e0b-a1b9-462956ef51a9",
+      "title": "Israel extends ban on Al Jazeera's operations by 90 days | Freedom of the Press News | Al Jazeera",
+      "type": "web_page",
+      "url": "https://www.aljazeera.com/news/2026/1/25/israel-extends-ban-on-al-jazeeras-operations-by-90-days",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 21,
+      "id": "39898bc3-36ed-42d7-a79b-06dc5e6d192e",
+      "title": "KI-Agenten: Produktivitäts-Booster mit gefährlichen Nebenwirkungen",
+      "type": "web_page",
+      "url": "https://www.ad-hoc-news.de/boerse/ueberblick/ki-agenten-produktivitaets-booster-mit-gefaehrlichen-nebenwirkungen/68522218",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 22,
+      "id": "8c0cdb6c-9533-45f1-ae94-5057da7e7888",
+      "title": "KI-Gesetz: Deutschland schafft klaren Regulierungsrahmen",
+      "type": "web_page",
+      "url": "https://www.ad-hoc-news.de/boerse/ueberblick/ki-gesetz-deutschland-schafft-klaren-regulierungsrahmen/68573638",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 23,
+      "id": "7e6967f3-fb52-451f-bfc6-3be49a636156",
+      "title": "KI-Verordnung: Was Unternehmen jetzt tun müssen | KONICA MINOLTA",
+      "type": "web_page",
+      "url": "https://www.konicaminolta.de/de-de/blog/digitaler-arbeitsplatz/eu-ai-act-unternehmen-pflichten",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 24,
+      "id": "c2620f3c-2b39-4712-b1e5-f11b0aad79b6",
+      "title": "Westjordanland: Palästinensische Autonomiebehörde verbietet Al Jazeera - DER SPIEGEL",
+      "type": "web_page",
+      "url": "https://www.spiegel.de/ausland/palaestinensische-autonomiebehoerde-verbietet-al-jazeera-a-86a4dcaf-66c3-4a48-a944-cf1cc4c3e9a3",
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-06-02T09:21:12"
+    },
+    {
+      "index": 25,
+      "id": "ebb72a72-ad0c-4ee1-82a0-f5c0461453bb",
+      "title": "https://de.euronews.com/next/2026/01/12/ki-pannen-und-wachsende-geopolitische-bedrohungen-was-2026-auf-die-cybersicherheit-zukommt",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:27"
+    },
+    {
+      "index": 26,
+      "id": "10bd53a3-17ce-43a1-92a7-7ab06f06f203",
+      "title": "https://de.euronews.com/next/2026/02/13/un-setzt-erstes-globales-ki-sicherheitsgremium-ein-brancheninsider-schlagen-alarm",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:09"
+    },
+    {
+      "index": 27,
+      "id": "27fea43e-c375-4f74-ba81-f30332b222ca",
+      "title": "https://www.computerweekly.com/de/feature/2026-Cybergefahren-und-KI-sind-die-groessten-Risiken",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:15"
+    },
+    {
+      "index": 28,
+      "id": "7ed437f6-33be-48b3-8270-866329275510",
+      "title": "https://www.computerweekly.com/de/tipp/10-KI-Themen-im-Jahr-2026-die-Fuehrungskraefte-kennen-muessen",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:21"
+    },
+    {
+      "index": 29,
+      "id": "de2ba5d6-5ef0-433a-be35-36ed7c9c7b30",
+      "title": "https://www.dfki.de/web/news/international-ai-safety-report-2026-erschienen",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:12"
+    },
+    {
+      "index": 30,
+      "id": "87f38414-d1b0-4086-a327-479229928b14",
+      "title": "https://www.tagesschau.de/ausland/europa/eu-regeln-ki-100.html",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:30"
+    },
+    {
+      "index": 31,
+      "id": "f806a97d-e6ec-4421-b381-856458a71b9b",
+      "title": "https://www.tagesschau.de/wirtschaft/unternehmen/ki-risiko-unternehmen-cyberkriminalitaet-100.html",
+      "type": "web_page",
+      "url": null,
+      "status": "error",
+      "status_id": 3,
+      "created_at": "2026-06-02T11:25:33"
+    }
+  ],
+  "count": 31
+}

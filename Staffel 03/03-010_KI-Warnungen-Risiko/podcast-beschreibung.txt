@@ -1,0 +1,63 @@
+Folge Q034
+Titel: KI greift jetzt selbst an! Das verschläft die Branche
+
+Vergiss harmlose KI-Spielereien. 2026 ist das Jahr, in dem die Sicherheitsrisiken förmlich explodieren, und 99 Prozent der Branche schlafen tief und fest. Genau diese Ignoranz wird gerade zum Karrierestopper. Vom Familienbetrieb bis zum 250-Mann-Mittelständler fallen sie hintenüber, während das eine Prozent längst handelt. ⚠️
+
+In diesem Podcast Quicky von KI AffAIrs ziehe ich die Warnblinkanlage hoch. KI ist nicht mehr nur das Werkzeug des Hackers, KI ist der Hacker. Gleichzeitig öffnest du mit jedem hastig ausgerollten Assistenten neue Türen, und über allem schwebt der Regulierungs-Tsunami aus Brüssel. Drei Dinge gehören ab sofort auf deinen Schirm.
+
+Die Insights dieser Folge:
+Automatisierte Dauerangriffe: KI-gestützte Agenten suchen 24/7 autonom nach Schwachstellen, dazu kommen perfekte Audio-Deepfakes deines CEOs. Diese Angriffe skalieren und treffen gerade den schlecht geschützten Mittelstand. 🤖
+Der interne Schwachpunkt: Wer Chatbots und Copiloten ohne Governance ausrollt, baut auf Sand. Prompt Injection und Datenvergiftung machen aus deinem Assistenten ein trojanisches Pferd, das die Firewall nicht sieht.
+Der EU AI Act zeigt die Zähne: Verbotene Praktiken und die AI-Literacy-Pflicht gelten seit Februar 2025, der nächste harte Stichtag ist August 2026. Strafen gestaffelt: bis 35 Millionen Euro für verbotene Praktiken, bis 15 Millionen für sonstige Verstöße. ⏰
+
+Kapitel:
+00:00 Worum es heute geht
+00:30 Automatisierte Dauerangriffe
+00:48 Der interne Schwachpunkt in deiner KI
+01:04 Der EU AI Act zeigt die Zähne
+01:30 Das kommt am Donnerstag
+
+Was das fehlende Puzzleteil in deiner Strategie ist und wie du mit Governance-First diese Falle umgehst, zerlegen wir am Donnerstag in der großen Deep-Dive-Folge. Hör unbedingt rein! 🚀
+
+Brauchst du Unterstützung bei der sicheren KI-Implementierung? KI AffAIrs ist deine strategische KI-Beratung für die Praxis.
+
+👉 Vernetze dich mit mir auf LinkedIn: https://www.linkedin.com/in/clauszeissler/
+👉 Mehr Infos zur Beratung: https://www.affairs-consulting.de/
+
+(Hinweis: Diese Podcast-Folge wurde mit Unterstützung und Strukturierung durch Google's NotebookLM erstellt.)
+
+
+
+Folge L034
+Titel: KI greift jetzt selbst an! Alles zur Governance-First-Architektur
+
+Am Montag haben wir die Warnblinkanlage eingeschaltet, heute wird geliefert. 🤖 Stell dir vor, dein autonomer KI-Einkaufsagent verhandelt nachts selbstständig einen Vertrag, eine gegnerische KI vergiftet seinen Datenstrom, und am Morgen hast du rechtlich bindend 10.000 Einheiten von nichts für drei Millionen Euro gekauft. Niemand in deiner IT hatte eine Warnmeldung auf dem Schirm. Jetzt geht es ums Wie, und wir steigen in den Maschinenraum.
+
+Willkommen zur Deep-Dive-Folge von KI AffAIrs! Heute zerlegen wir die neue Bedrohungslage, in der die KI selbst zum Angreifer wird, und zeigen dir konkret, wie du eine Governance-First-Architektur aufbaust, die hält. Dafür sezieren wir EU AI Act, NIST AI RMF, ISO 42001 und die Vorreiterregeln aus Singapur.
+
+Die Insights dieser Folge:
+Die angreifbare Architektur: Beim Large Language Model verschmelzen Systemanweisung und Nutzereingabe im selben Kanal. Per Prompt Injection kann die KI oft nicht unterscheiden, wo die Regel aufhört und der böswillige Befehl beginnt, derselbe Schlüssel öffnet Eingang und Tresor.
+Data Poisoning: Die KI stürzt nicht ab, sie übermalt die Fahrbahnmarkierung und lenkt sich voller Selbstvertrauen in den Abgrund, während alle Sensoren perfekt laufen. Deine alte Firewall sieht das nicht.
+Drei Zahnräder: EU AI Act, NIST AI RMF und ISO 42001 greifen ineinander. Das Gesetz ist die Pflicht, NIST die Methode, ISO der Beweis. Strafen gestaffelt: bis 35 Millionen Euro für verbotene Praktiken, bis 15 Millionen für sonstige Verstöße.
+Agentic AI und die Haftung: Autonome Agenten handeln in Millisekunden selbst, und beim Liability-Attribution-Problem versagt die klassische Produkthaftung. Die Lösung kommt aus Singapur mit Agent Identity Cards, dazu Zero Trust mit kurzlebigen Token und ein interdisziplinäres Governance-Gremium. 🔐
+
+Kapitel:
+00:00 Das Drei-Millionen-Euro-Szenario
+02:45 KI ist der Hacker: die neue Bedrohungslage
+03:44 Das trojanische Pferd: deine eigene KI
+06:04 Data Poisoning: die übermalte Fahrbahn
+08:41 Der Regulierungs-Tsunami und die EU-Timeline
+11:03 Drei Zahnräder: EU AI Act, NIST, ISO 42001
+14:49 Der blinde Fleck: Agentic AI und die Haftung
+16:42 Singapurs Blaupause: Agent Identity Cards
+19:43 Zero Trust und das Governance-Gremium
+25:07 Praxistipp der Woche und Ausblick
+
+Der Macher-Tipp der Woche: Warte nicht auf 2027. Schreib diese Woche ein schlankes KI-Regelwerk auf wenigen Seiten (wer nutzt was, wofür, mit welchen Daten), inventarisiere alle Tools und deck die Schatten-IT auf, und starte Awareness-Trainings mit echten Phishing- und Audio-Deepfake-Simulationen. So baust du die menschliche Firewall. 🛡️
+
+Weg vom Capabilities-First, hin zu Governance-First. 🚀 Willst du dieses Fundament nicht allein gießen? KI AffAIrs unterstützt dich mit handfester Consulting-Expertise und macht den Mittelstand unzerbrechlich.
+
+👉 Vernetze dich mit mir auf LinkedIn: https://www.linkedin.com/in/clauszeissler/
+👉 Mehr Infos zur Beratung: https://www.affairs-consulting.de/
+
+(Hinweis: Diese Podcast-Folge wurde mit Unterstützung und Strukturierung durch Google's NotebookLM erstellt.)

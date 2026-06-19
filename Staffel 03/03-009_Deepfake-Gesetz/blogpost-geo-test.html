@@ -1,0 +1,259 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+.ki-post-wrapper{background:#0a0a0f;color:#e8e8f0;font-family:'Inter',sans-serif;max-width:860px;margin:0 auto;padding:0;line-height:1.75}
+.ki-hero{width:100%;margin-bottom:0;display:block}.ki-hero img{width:100%;height:auto;display:block;border-radius:0}
+.ki-header{padding:40px 40px 24px;background:#0a0a0f}
+.ki-header-tag{display:inline-block;background:linear-gradient(135deg,#ff6b00,#ff9500);color:#fff;font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:3px;margin-bottom:20px}
+.ki-header-title{font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,4vw,38px);font-weight:700;color:#ffffff;line-height:1.25;margin:0 0 16px}
+.ki-header-subtitle{font-size:17px;color:#c8c8d8;line-height:1.6;margin:0}
+.ki-meta{display:flex;flex-wrap:wrap;gap:8px 24px;padding:16px 40px;border-top:1px solid #1e1e2e;border-bottom:1px solid #1e1e2e;background:#0d0d14;font-size:13px;color:#b0b0c0}
+.ki-meta-label{color:#00d4ff;font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:1px;margin-right:4px}
+.ki-body{padding:36px 40px}
+.ki-body h2{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#ff6b00;margin:40px 0 16px;padding-bottom:10px;border-bottom:1px solid #1e1e2e}
+.ki-body p{font-size:16px;color:#e8e8f0;line-height:1.8;margin:0 0 20px}
+.ki-body strong{color:#00d4ff;font-weight:600}
+.ki-img-block{margin:32px 0;border:1px solid #00d4ff;border-radius:8px;overflow:hidden}
+.ki-img-block img{width:100%;height:auto;display:block}
+.ki-img-caption{padding:12px 16px;background:rgba(0,212,255,0.06);font-size:13px;color:#b0b0c0;font-style:italic;border-top:1px solid rgba(0,212,255,0.2)}
+.ki-quote{margin:32px 0;padding:24px 28px;background:#111118;border-left:4px solid #00d4ff;border-radius:0 8px 8px 0}
+.ki-quote p{font-size:18px;font-style:italic;color:#e8e8f0;line-height:1.7;margin:0 0 12px}
+.ki-list{margin:24px 0}
+.ki-list-item{display:flex;gap:14px;padding:14px 18px;margin-bottom:10px;background:#111118;border-left:3px solid #ff6b00;border-radius:0 6px 6px 0}
+.ki-list-item.cyan{border-left-color:#00d4ff}
+.ki-list-bullet{color:#ff6b00;font-weight:700;font-size:18px;flex-shrink:0;margin-top:-2px}
+.ki-list-item.cyan .ki-list-bullet{color:#00d4ff}
+.ki-list-text{font-size:15px;color:#c8c8d8;line-height:1.6}
+.ki-list-text strong{color:#ff6b00}
+.ki-list-item.cyan .ki-list-text strong{color:#00d4ff}
+.ki-myth{margin:24px 0;padding:20px 24px;background:#0d0d14;border:1px solid #1e1e2e;border-radius:8px}
+.ki-myth-row{display:flex;gap:16px;margin-bottom:12px;align-items:flex-start}
+.ki-myth-row:last-child{margin-bottom:0}
+.ki-myth-label{font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:4px 10px;border-radius:3px;flex-shrink:0;margin-top:2px;min-width:78px;box-sizing:border-box;text-align:center}
+.ki-myth-label.myth{background:rgba(255,107,0,0.15);color:#ff6b00;border:1px solid rgba(255,107,0,0.3)}
+.ki-myth-label.fact{background:rgba(0,212,255,0.1);color:#00d4ff;border:1px solid rgba(0,212,255,0.3)}
+.ki-myth-text{font-size:15px;color:#c8c8d8;line-height:1.6}
+.ki-tldr{margin:28px 0;padding:22px 24px;background:#0d0d14;border:1px solid #00d4ff;border-radius:8px}
+.ki-tldr h3{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#00d4ff;margin:0 0 14px}
+.ki-tldr-row{display:flex;gap:14px;padding:8px 0;border-top:1px solid #1e1e2e}
+.ki-tldr-row:nth-of-type(1){border-top:none}
+.ki-tldr-key{color:#00d4ff;font-weight:600;font-size:13px;flex:0 0 210px}
+.ki-tldr-val{color:#e8e8f0;font-size:14px;line-height:1.5}
+.ki-faq{margin:24px 0}
+.ki-faq-item{margin-bottom:10px;background:#111118;border-left:3px solid #00d4ff;border-radius:0 6px 6px 0;overflow:hidden}
+.ki-faq-item summary{cursor:pointer;list-style:none;padding:14px 18px;font-family:'Space Grotesk',sans-serif;font-weight:700;color:#ffffff;font-size:15px;line-height:1.4;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.ki-faq-item summary::-webkit-details-marker{display:none}
+.ki-faq-item summary::after{content:'\25BE';color:#00d4ff;font-size:15px;flex-shrink:0;transition:transform .2s ease;transform:rotate(-90deg)}
+.ki-faq-item[open] summary::after{transform:rotate(0)}
+.ki-faq-a{color:#c8c8d8;font-size:15px;line-height:1.6;margin:0;padding:0 18px 16px}
+.ki-sources{margin:24px 0;padding:18px 22px;background:#0d0d14;border:1px solid #1e1e2e;border-radius:8px}
+.ki-sources h3{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#ff6b00;margin:0 0 12px}
+.ki-sources ul{margin:0;padding-left:18px}
+.ki-sources li{color:#c8c8d8;font-size:14px;margin-bottom:8px;line-height:1.5}
+.ki-sources a{color:#00d4ff;text-decoration:none;border-bottom:1px solid rgba(0,212,255,0.4)}
+.ki-footer{padding:24px 40px;border-top:2px solid #00d4ff;background:#0d0d14;display:flex;flex-wrap:wrap;gap:8px 24px;font-size:13px;color:#b0b0c0}
+.ki-footer-label{color:#00d4ff;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-right:4px}
+@media(max-width:640px){.ki-header,.ki-body,.ki-footer{padding-left:20px;padding-right:20px}.ki-meta{padding-left:20px;padding-right:20px}.ki-tldr-row{flex-direction:column;gap:2px}.ki-tldr-key{flex-basis:auto}}
+</style>
+
+<div class="ki-post-wrapper">
+
+  <div class="ki-hero">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimo8MPka0CHMHRuRC3zjdsZNUqIMF6QjcCXf3uXs7zqEsyfOpAyWfoRwzzMHjKg1xAVtZBhJ1YKGa_TrXukW0FLj_GCDFGv0kz_ODiZpQ1r1LsloQ5uEFDQO2qGGOS8nSTvDdxVKmkKn4ciAaS-sl9UNmawi2P9BPVrKPjHmHyCmTEuF40SsBd22ChyphenhyphenrA/s1600/hero.png" alt="Deepfake-Gesetz 2026: Eine Sanduhr läuft auf die Frist am 2. August 2026 zu" />
+  </div>
+
+  <div class="ki-header">
+    <div class="ki-header-tag">GEO-Testentwurf · Deepfake-Recht · KW24</div>
+    <h1 class="ki-header-title">[TEST · GEO] Deepfake-Gesetz 2026: Was auf deinen Mittelstand und deine Leute zukommt</h1>
+    <p class="ki-header-subtitle">Ab dem 2. August 2026 greift Artikel 50 des EU AI Act. Wer KI-Inhalte nicht kennzeichnet, riskiert Bußgeld und das Vertrauen der eigenen Belegschaft. Was du jetzt tun musst.</p>
+  </div>
+
+  <div class="ki-meta">
+    <span><span class="ki-meta-label">Veröffentlicht</span> 10. Juni 2026</span>
+    <span><span class="ki-meta-label">Ort</span> Ruhrgebiet</span>
+    <span><span class="ki-meta-label">Lesezeit</span> 6 Minuten</span>
+    <span><span class="ki-meta-label">Themen</span> EU AI Act, Artikel 50, Deepfakes, C2PA, KI-Kennzeichnung, Mittelstand</span>
+  </div>
+
+  <div class="ki-body">
+
+    <p>Vergiss die Vorstellung, Deepfakes seien ein Promi-Problem. Sie sind ein Compliance-Problem. Und ab dem <strong>2. August 2026</strong> ein Haftungsproblem.</p>
+
+    <p>Die meisten Geschäftsführer behandeln KI-generierte Inhalte wie ein nettes Extra. Sie posten, werben, automatisieren und kennzeichnen nichts. Das wird teuer.</p>
+
+    <p>Denn der EU AI Act und das kommende deutsche Recht gegen digitale Gewalt ziehen gleichzeitig an. Wer das verschläft, zahlt doppelt: mit Bußgeld und mit dem Vertrauen der eigenen Belegschaft.</p>
+
+    <div class="ki-tldr">
+      <h3>Auf einen Blick</h3>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Gesetz</div><div class="ki-tldr-val">EU AI Act, Artikel 50 (Transparenz- und Kennzeichnungspflichten)</div></div>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Durchsetzbar ab</div><div class="ki-tldr-val">2. August 2026</div></div>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Provider-Pflicht</div><div class="ki-tldr-val">Synthetische Inhalte maschinenlesbar markieren (Metadaten, Wasserzeichen, z. B. C2PA)</div></div>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Deployer-Pflicht</div><div class="ki-tldr-val">Deepfakes für Menschen sichtbar kennzeichnen (Label, Icon)</div></div>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Bußgeld (Artikel 50)</div><div class="ki-tldr-val">Bis zu 15 Mio € oder 3 % des weltweiten Jahresumsatzes</div></div>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Verbotene Praktiken</div><div class="ki-tldr-val">Bis zu 35 Mio € oder 7 % (nach Artikel 5; gilt NICHT für Kennzeichnungsverstöße)</div></div>
+      <div class="ki-tldr-row"><div class="ki-tldr-key">Deutschland plant</div><div class="ki-tldr-val">Gesetz gegen digitale Gewalt (Hubig): neuer § 201b, Erweiterung § 184k, neuer § 202e StGB</div></div>
+    </div>
+
+    <h2>„Uns betrifft das nicht" ist die teuerste Annahme des Jahres</h2>
+
+    <p>Generative KI hat die Hürde für Fälschungen auf null gesenkt. Was früher teure Photoshop-Arbeit war, erledigt heute ein Smartphone in Sekunden.</p>
+
+    <p>Das trifft nicht nur Prominente. Der Fall der Moderatorin Collien Ulmen-Fernandes hat die deutsche Gesetzgebung sichtbar beschleunigt: Über gefälschte Profile wurden jahrelang Deepfakes in ihrem Namen verbreitet.</p>
+
+    <p>Übertragen auf dein Unternehmen heißt das: Jedes Gesicht in deinem Team kann zum Ziel werden. Und jeder ungekennzeichnete KI-Inhalt aus deinem Haus wird zum Risiko.</p>
+
+    <div class="ki-quote">
+      <p>Deepfakes sind kein IT-Thema mehr. Sie sind ein Führungsthema.</p>
+    </div>
+
+    <h2>Artikel 50: Was Provider und was Deployer liefern müssen</h2>
+
+    <p>Der EU AI Act trennt zwei Rollen. Verwechselst du sie, kennzeichnest du falsch.</p>
+
+    <div class="ki-img-block">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL359vDh_ZPMaPlaECixkOSG1GH7o9jfuRXr5GB3nda98DxBASLs8tkHCXtS57K_k6kEV2AXm6V_Faj5Vga3iV8fhJsVp_EfSmfTY6_hl2hO5F2usR8mXU40Kbt0bKlQtyDvt4Zu57Go_MdgF2Y0jdCg14H644Hd2FFAlkLTH0YD-_w9xI9cO6YhGX-u0/s1600/compliance.png" alt="Artikel 50 EU AI Act: Pflichten von Provider und Deployer, COMPLIANT-Infografik" />
+      <div class="ki-img-caption">Artikel 50 trennt zwei Rollen: Provider markieren maschinenlesbar (C2PA), Deployer kennzeichnen sichtbar. Ab dem 2. August 2026 ist das durchsetzbar.</div>
+    </div>
+
+    <p><strong>Provider</strong>, also diejenigen, die KI-Systeme bereitstellen, müssen synthetische Inhalte maschinenlesbar markieren: fälschungssichere Metadaten und unsichtbare Wasserzeichen, etwa nach dem offenen <strong>C2PA-Standard</strong>.</p>
+
+    <p><strong>Deployer</strong>, also diejenigen, die diese Inhalte einsetzen und veröffentlichen, müssen Deepfakes sichtbar offenlegen, künftig über ein einheitliches EU-Kennzeichnungs-Icon.</p>
+
+    <p>Diese Transparenzpflichten nach Artikel 50 werden ab dem <strong>2. August 2026</strong> durchsetzbar. Das ist kein „irgendwann". Das ist dein Stichtag.</p>
+
+    <h2>Der teure Irrtum bei den Strafen</h2>
+
+    <p>Hier verrechnen sich gerade viele. Im Netz kursiert die Zahl „35 Millionen Euro oder 7 % vom Umsatz". Sie erzeugt Panik an der falschen Stelle.</p>
+
+    <div class="ki-myth">
+      <div class="ki-myth-row">
+        <span class="ki-myth-label myth">Mythos</span>
+        <span class="ki-myth-text">„35 Millionen Euro oder 7 % vom Umsatz drohen bei jedem ungekennzeichneten KI-Inhalt."</span>
+      </div>
+      <div class="ki-myth-row">
+        <span class="ki-myth-label fact">Fakt</span>
+        <span class="ki-myth-text">Diese Höchststrafe gilt ausschließlich für <strong>verbotene</strong> KI-Praktiken nach Artikel 5. Für Verstöße gegen die Kennzeichnungspflicht nach Artikel 50 liegt der Rahmen bei <strong>bis zu 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes</strong>.</span>
+      </div>
+    </div>
+
+    <p>15 Millionen sind keine Lappalie. Aber wer mit der falschen Zahl plant, baut seine Strategie auf Sand.</p>
+
+    <h2>Das deutsche Recht zieht nach, und es wird persönlich</h2>
+
+    <p>Parallel schließt Deutschland seine Lücken. Bundesjustizministerin Stefanie Hubig hat einen Gesetzentwurf gegen digitale Gewalt vorgelegt, der das Herstellen und Verbreiten pornografischer Deepfakes konsequent unter Strafe stellen soll.</p>
+
+    <div class="ki-img-block">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFBIl9zUa5HgUm8V-YRlcqInJSTskW_ONNa6tawwfvPRMjHHD2xjW_vDmrRwsP9JS-jdge9B2xNSUtBgc5E7o_cySga8-8o2Sdx3SMNJnWhHW3bJ6kI0r6Rl80sZJ5EjVLuM1c7boRMOTJBURCqBtrBd6GoHzSfYubyNZd_2c4MFBc74e7FQMt8ItdEDM/s1600/trust.png" alt="Schutz der Belegschaft vor digitaler Gewalt: KI als entlastendes Werkzeug mit Human-in-the-Loop" />
+      <div class="ki-img-caption">Schutz vor digitaler Gewalt wird zur Fürsorgepflicht: Es geht um die Menschen, die für dich arbeiten, nicht nur um die Marke.</div>
+    </div>
+
+    <p>Bisher scheiterten Verfahren oft am Begriff der „Bildaufnahme" in § 201a StGB: Berechnet eine KI das Bild, wurde juristisch nichts „aufgenommen". Geplant ist deshalb ein neuer § 201b StGB gegen täuschende Deepfakes; auch die Grünen haben dazu einen eigenen Entwurf eingebracht.</p>
+
+    <p>Für dich als Arbeitgeber heißt das: Schutz vor digitaler Gewalt wird zur Fürsorgepflicht. Es geht nicht mehr nur um deine Marke, sondern um die Menschen, die für dich arbeiten.</p>
+
+    <h2>Mensch und KI: Compliance ist die Pflicht, deine Leute sind die Kür</h2>
+
+    <p>Hier trennt sich das 1 % vom Rest. Die einen sehen nur die Bußgeld-Drohung. Die anderen nutzen den Moment, um ihre Belegschaft mitzunehmen.</p>
+
+    <p>KI soll deinen Leuten den Rücken freihalten, nicht über ihre Köpfe hinweg entscheiden. Wer Kennzeichnung, Schulung und klare Meldewege gemeinsam mit dem Team aufbaut, mit dem Betriebsrat statt gegen ihn, macht aus einer Pflicht einen Vertrauensvorsprung.</p>
+
+    <div class="ki-quote">
+      <p>Compliance hält dich aus dem Bußgeld. Deine Leute halten dich im Geschäft.</p>
+    </div>
+
+    <h2>Die Pro-Checkliste: 3 Schritte für diese Woche</h2>
+
+    <div class="ki-img-block">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHiKjql9VrYyuKeTgHOu2P4Yf-nn39toaYC0kb-qUH-Tggwu6ccJBBXEBrxKbzyILIo-qXlh15gaq7QnmagkWwXIw18P10rlCVv3zg8BBhgtS0XGHVepC0mG2HIdpmStL66XnPktpqKWl77aic_V41Q6_i0j6ylND_1JZ-Iihxm0tDeXsSHM9M595ZU5I/s1600/icon.png" alt="Einheitliches EU-Icon für die Kennzeichnung KI-generierter Inhalte" />
+      <div class="ki-img-caption">Sichtbare Kennzeichnung wird Pflicht, künftig über ein einheitliches EU-Icon. Wer sie früh verankert, macht aus der Pflicht einen Vertrauensvorsprung.</div>
+    </div>
+
+    <div class="ki-list">
+      <div class="ki-list-item">
+        <span class="ki-list-bullet">1</span>
+        <span class="ki-list-text"><strong>Rollen klären.</strong> Halte fest, wo in deinem Unternehmen KI-Inhalte entstehen und wo ihr sie veröffentlicht. Erst dann weißt du, ob euch die Provider- oder die Deployer-Pflicht trifft. Oder beide.</span>
+      </div>
+      <div class="ki-list-item cyan">
+        <span class="ki-list-bullet">2</span>
+        <span class="ki-list-text"><strong>Kennzeichnung technisch verankern.</strong> Plane Herkunftsnachweise (C2PA-Metadaten, Wasserzeichen) und sichtbare Labels von Anfang an ein. Nachträglich aufgeklebt hält das weder rechtlich noch technisch.</span>
+      </div>
+      <div class="ki-list-item">
+        <span class="ki-list-bullet">3</span>
+        <span class="ki-list-text"><strong>Leute befähigen.</strong> Schule dein Team, Deepfakes zu erkennen, und richte einen klaren Meldeweg bei digitaler Gewalt ein. Führe KI als Werkzeug ein, das entlastet, nicht als Kontrollinstrument.</span>
+      </div>
+    </div>
+
+    <h2>Der 2. August 2026 kommt, mit oder ohne dich</h2>
+
+    <p>Wer jetzt Kennzeichnung, Recht und Mensch zusammendenkt, geht mit Vorsprung ins Jahr. Wer wartet, erklärt im Zweifel der Aufsicht UND der eigenen Belegschaft, warum nichts passiert ist.</p>
+
+    <p>Wie weit ist dein Unternehmen beim Thema KI-Kennzeichnung wirklich, ganz ehrlich? Finde es heraus: Der KI-Check für dein Unternehmen ist kostenlos und in 2 Minuten erledigt.</p>
+
+    <div style="text-align:center;margin:36px 0">
+      <a href="https://zechencheck.lovable.app/" target="_blank" rel="noopener" style="display:inline-block;background:linear-gradient(135deg,#ff6b00,#ff9500);color:#ffffff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:15px;letter-spacing:1px;text-transform:uppercase;text-decoration:none;padding:16px 34px;border-radius:6px;box-shadow:0 6px 24px rgba(255,107,0,0.35)">Jetzt KI-Check starten · 2 Min · kostenlos</a>
+    </div>
+
+    <p><strong>KI AffAIrs macht den Mittelstand unzerbrechlich:</strong> Wir verbinden Tech aus der Praxis mit Rechtssicherheit und nehmen deine Leute mit, statt sie zu ersetzen.</p>
+
+    <div class="ki-sources">
+      <h3>Quellen</h3>
+      <ul>
+        <li>EU AI Act, Artikel 50 (Transparenzpflichten für Anbieter und Betreiber): <a href="https://artificialintelligenceact.eu/article/50/" target="_blank" rel="noopener">artificialintelligenceact.eu/article/50</a></li>
+        <li>C2PA (Coalition for Content Provenance and Authenticity): <a href="https://c2pa.org/" target="_blank" rel="noopener">c2pa.org</a></li>
+        <li>Bundesministerium der Justiz: Entwurf eines Gesetzes gegen digitale Gewalt (§ 201b, § 184k, § 202e StGB)</li>
+      </ul>
+    </div>
+
+    <h2>Häufige Fragen zum Deepfake-Recht 2026</h2>
+
+    <div class="ki-faq">
+      <details class="ki-faq-item">
+        <summary>Was regelt Artikel 50 des EU AI Act zur Kennzeichnung von KI-Inhalten?</summary>
+        <p class="ki-faq-a">Artikel 50 verpflichtet Anbieter generativer KI-Systeme, synthetisch erzeugte oder manipulierte Inhalte (Bild, Ton, Video, Text) maschinenlesbar zu markieren, sodass sie eindeutig als künstlich erkennbar sind. Nutzer (Deployer) müssen Deepfakes und KI-generierte Texte zu Themen von öffentlichem Interesse zusätzlich klar sichtbar kennzeichnen und offenlegen.</p>
+      </details>
+      <details class="ki-faq-item">
+        <summary>Ab wann gilt die Kennzeichnungspflicht für KI-Inhalte?</summary>
+        <p class="ki-faq-a">Die Transparenz- und Kennzeichnungspflichten nach Artikel 50 des EU AI Act sind ab dem 2. August 2026 durchsetzbar.</p>
+      </details>
+      <details class="ki-faq-item">
+        <summary>Wie hoch sind die Bußgelder bei fehlender Kennzeichnung?</summary>
+        <p class="ki-faq-a">Bei Verstößen gegen die Kennzeichnungspflicht nach Artikel 50 drohen bis zu 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes, wobei der höhere Wert gilt. Verstöße gegen das Verbot von KI-Praktiken nach Artikel 5 werden strenger bestraft: bis zu 35 Millionen Euro oder 7 %.</p>
+      </details>
+      <details class="ki-faq-item">
+        <summary>Worin unterscheiden sich Provider und Deployer?</summary>
+        <p class="ki-faq-a">Anbieter (Provider) müssen dafür sorgen, dass erzeugte Inhalte technisch und maschinenlesbar markiert werden, etwa durch eingebettete Metadaten oder Wasserzeichen. Nutzer (Deployer) müssen veröffentlichte KI-Inhalte wie Deepfakes für den menschlichen Betrachter klar sichtbar kennzeichnen, beispielsweise durch optische Labels oder Icons.</p>
+      </details>
+      <details class="ki-faq-item">
+        <summary>Was ist der C2PA-Standard?</summary>
+        <p class="ki-faq-a">C2PA (Coalition for Content Provenance and Authenticity) ist ein offener technischer Standard, der Herkunftsdaten als kryptografisch signierte Metadaten (Manifeste) direkt in Mediendateien einbettet. Er dokumentiert fälschungssicher und plattformübergreifend, von welchem KI-System ein Inhalt wann erzeugt oder verändert wurde.</p>
+      </details>
+      <details class="ki-faq-item">
+        <summary>Welche Gesetze plant Deutschland gegen Deepfakes?</summary>
+        <p class="ki-faq-a">Im Zentrum steht der Entwurf für ein Gesetz gegen digitale Gewalt von Bundesjustizministerin Stefanie Hubig. Geplant sind unter anderem ein neuer § 201b StGB gegen täuschende (nicht-sexualisierte) Deepfakes, eine Erweiterung des § 184k StGB gegen sexualisierte Deepfakes (Strafe bis zu zwei Jahre, bereits die Herstellung strafbar), ein neuer § 202e StGB gegen heimliches digitales Tracking sowie ein stärkerer zivilrechtlicher Auskunftsanspruch und richterlich angeordnete Accountsperren. Die Grünen haben zu § 184k einen eigenen Entwurf eingebracht.</p>
+      </details>
+    </div>
+
+  </div>
+
+  <div class="ki-footer">
+    <span><span class="ki-footer-label">Veröffentlicht</span> 10. Juni 2026</span>
+    <span><span class="ki-footer-label">Ort</span> Ruhrgebiet</span>
+    <span><span class="ki-footer-label">Lesezeit</span> 6 Minuten</span>
+    <span><span class="ki-footer-label">Autor</span> Claus Zeißler</span>
+  </div>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Was regelt Artikel 50 des EU AI Act zur Kennzeichnung von KI-Inhalten?", "acceptedAnswer": {"@type": "Answer", "text": "Artikel 50 verpflichtet Anbieter generativer KI-Systeme, synthetisch erzeugte oder manipulierte Inhalte (Bild, Ton, Video, Text) maschinenlesbar zu markieren, sodass sie eindeutig als künstlich erkennbar sind. Nutzer (Deployer) müssen Deepfakes und KI-generierte Texte zu Themen von öffentlichem Interesse zusätzlich klar sichtbar kennzeichnen und offenlegen."}},
+    {"@type": "Question", "name": "Ab wann gilt die Kennzeichnungspflicht für KI-Inhalte?", "acceptedAnswer": {"@type": "Answer", "text": "Die Transparenz- und Kennzeichnungspflichten nach Artikel 50 des EU AI Act sind ab dem 2. August 2026 durchsetzbar."}},
+    {"@type": "Question", "name": "Wie hoch sind die Bußgelder bei fehlender Kennzeichnung?", "acceptedAnswer": {"@type": "Answer", "text": "Bei Verstößen gegen die Kennzeichnungspflicht nach Artikel 50 drohen bis zu 15 Millionen Euro oder 3 Prozent des weltweiten Jahresumsatzes, wobei der höhere Wert gilt. Verstöße gegen das Verbot von KI-Praktiken nach Artikel 5 werden strenger bestraft: bis zu 35 Millionen Euro oder 7 Prozent."}},
+    {"@type": "Question", "name": "Worin unterscheiden sich Provider und Deployer?", "acceptedAnswer": {"@type": "Answer", "text": "Anbieter (Provider) müssen dafür sorgen, dass erzeugte Inhalte technisch und maschinenlesbar markiert werden, etwa durch eingebettete Metadaten oder Wasserzeichen. Nutzer (Deployer) müssen veröffentlichte KI-Inhalte wie Deepfakes für den menschlichen Betrachter klar sichtbar kennzeichnen, beispielsweise durch optische Labels oder Icons."}},
+    {"@type": "Question", "name": "Was ist der C2PA-Standard?", "acceptedAnswer": {"@type": "Answer", "text": "C2PA (Coalition for Content Provenance and Authenticity) ist ein offener technischer Standard, der Herkunftsdaten als kryptografisch signierte Metadaten direkt in Mediendateien einbettet. Er dokumentiert fälschungssicher und plattformübergreifend, von welchem KI-System ein Inhalt wann erzeugt oder verändert wurde."}},
+    {"@type": "Question", "name": "Welche Gesetze plant Deutschland gegen Deepfakes?", "acceptedAnswer": {"@type": "Answer", "text": "Im Zentrum steht der Entwurf für ein Gesetz gegen digitale Gewalt von Bundesjustizministerin Stefanie Hubig. Geplant sind ein neuer Paragraf 201b StGB gegen täuschende Deepfakes, eine Erweiterung des Paragraf 184k StGB gegen sexualisierte Deepfakes, ein neuer Paragraf 202e StGB gegen heimliches digitales Tracking sowie ein stärkerer zivilrechtlicher Auskunftsanspruch und richterlich angeordnete Accountsperren."}}
+  ]
+}
+</script>
