@@ -13,7 +13,10 @@
 - Deep-Dive-Audio nennt „24 % der US-Erwachsenen für emotionale Unterstützung" — **nicht in Whitelist** (George Mason war 53,6 %/80 %). Bewusst NICHT in den Content übernommen. Bei Bedarf vor Veröffentlichung verifizieren oder im Skript ersetzen.
 - Reale Schadensfälle im Audio (Sewell Setzer/Character.AI, Pierre/Belgien) — belegt über jugendschutz.net/Common Sense Media.
 
-## Offen (optional / „und co")
-- [ ] ChatGPT-Image-Prompts (2 Thumbnails + LinkedIn-Bild) — User generiert Bilder selbst in ChatGPT
+## NEU 19.06. abends — Thumbnails fertig ✅
+- `bilder/thumbnail-quicky.png` (Gehirn-Autopilot, orange) + `thumbnail-deepdive.png` (HITL-Kreislauf, cyan), 1280×720 via `tools/gen_thumb_openai.py`. API-Prompts gesichert. Gepusht.
+
+## Offen
+- [ ] **LinkedIn-Bild (035) generieren** — User-Entscheidung 19.06.: JA (Prompt `bilder/_chatgpt-prompt-linkedin.txt` liegt bereit; per API umsetzen)
 - [ ] Blog-Post (Phase 3b) — optional
 - [ ] Upload YouTube/Spotify/Blogger — durch User

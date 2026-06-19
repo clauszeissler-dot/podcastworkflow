@@ -17,7 +17,11 @@ Die heiklen Modell-Claims wurden vom Audio korrekt entschärft:
 - Fable 5 = „Jailbreak + US-Exportkontroll-Direktive" (NICHT „Spionage")
 - keine „130 Mrd"; belegte Zahlen (1,2 Mio/+108 %, 5x CLTR, 35 Mio/7 %) korrekt.
 
+## NEU 19.06. abends — Thumbnails fertig ✅
+- `bilder/thumbnail-quicky.png` + `thumbnail-deepdive.png` (1280×720) via `tools/gen_thumb_openai.py` (gpt-image-1, Likeness+Logo). API-Prompts gesichert. Gepusht.
+
 ## Offen (morgen, 20.06., neues Transkriptions-Limit)
-- [ ] Deep-Dive (036) → TurboScribe → `transkript/deep-dive.txt` + timed
-- [ ] L036-Beschreibung (Deep Dive) + ggf. Deep-Dive-LinkedIn
-- [ ] ChatGPT-Bild-Prompts (036): Quicky-Thumbnail, Deep-Dive-Thumbnail, LinkedIn-Bild
+- [ ] Deep-Dive (036) → TurboScribe → `transkript/deep-dive.txt` + timed → **L036-Beschreibung** + ggf. Deep-Dive-LinkedIn
+- [ ] **LinkedIn-Bilder (035 + 036) generieren** — User-Entscheidung 19.06.: JA, beide (per gen_thumb_openai.py / API)
+- [ ] **036-Quicky-Thumbnail Logo-Makel** (Text rendert „AFIAlrs" statt sauberem Hexagon): User entscheidet morgen, ob neu generieren
+- [ ] Upload YouTube/Spotify/Blogger (durch User)
