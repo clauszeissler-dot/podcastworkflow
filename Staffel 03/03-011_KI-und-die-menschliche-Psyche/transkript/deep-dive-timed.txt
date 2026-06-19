@@ -1,0 +1,561 @@
+(0:00) Hallo und herzlich willkommen zur Deep Dive-Folge von KI-Affairs.
+(0:06) Hallo zusammen.
+(0:08) Wusstet ihr, dass mittlerweile fast ein Viertel der US-Bevölkerung
+(0:12) seine tiefsten Ängste und Sorgen,
+(0:14) also lieber einem Algorithmus anvertraut als einem echten Menschen?
+(0:18) Das ist wirklich Wahnsinn, ja.
+(0:19) Das ist keine Zukunftsmusik, das passiert exakt jetzt in diesem Moment.
+(0:24) Am Montag haben wir die Warnblinkeranlage eingeschaltet
+(0:27) und gezeigt, was 99 Prozent der Unternehmen gerade falsch machen.
+(0:31) Heute wird geliefert.
+(0:32) Heute zerlegen wir das Thema und zeigen euch die Lösung.
+(0:35) Genau.
+(0:37) Denn wenn wir hier bei KI-Affairs
+(0:39) in unserer täglichen Architektur- und Praxisberatung
+(0:42) mit Unternehmern am Tisch sitzen,
+(0:43) also vom ganz normalen Mittelständler bis zum internationalen Konzern,
+(0:47) dann sehen wir echt immer wieder exakt dasselbe Muster.
+(0:50) Mhm, das stimmt.
+(0:52) Da werden Millionenbudgets in die Hand genommen,
+(0:55) um so die modernsten KI-Systeme einzukaufen.
+(0:59) Die Dashboards glänzen,
+(1:01) die Workflows sehen auf dem Papier total schlank aus.
+(1:05) Aber man vergisst halt völlig den wichtigsten Faktor
+(1:09) in dieser ganzen Gleichung, nämlich den Menschen vor dem Bildschirm.
+(1:13) Richtig, und das ist eine Entwicklung, die vollzieht sich extrem leise.
+(1:18) Wir implementieren diese Systeme ja prima so als Dauerproblemlöser.
+(1:22) Ja, genau, um uns die Arbeit leichter zu machen.
+(1:24) Exakt, sie sollen uns quasi die Reibung abnehmen.
+(1:27) Aber was wir in den Daten
+(1:28) und auch in der psychologischen Forschung zunehmend sehen,
+(1:32) ist, dass wir der Maschine
+(1:34) eben nicht nur die lästigen Aufgaben übergeben.
+(1:37) Wir lagern unbemerkt unsere eigenen kognitiven Fähigkeiten aus.
+(1:43) Es findet da ein massives Deskeling statt,
+(1:45) also ein schleichender Kompetenzverlust,
+(1:48) der weit, weit über das reine Vergessen von Fakten hinausgeht.
+(1:52) Und unsere Mission für heute ist es,
+(1:54) genau diese Abhängigkeitsspirale mal zu entlarven.
+(1:57) Ja.
+(1:58) Wir wollen verstehen, was da eigentlich neurologisch passiert,
+(2:02) wenn wir der KI das Steuer komplett überlassen.
+(2:05) Und vor allem wollen wir aus diesen Erkenntnissen
+(2:07) dann eine belastbare Lösungsarchitektur für euch ableiten.
+(2:11) Eine Struktur, die den Menschen im Mittelstand
+(2:13) wieder in die Position der Stärke bringt.
+(2:15) Da bin ich voll bei dir, da müssen wir ansetzen.
+(2:17) Weil dieser Instinkt, sich Widerstände aus dem Weg zu räumen,
+(2:20) das ist ja total menschlich.
+(2:23) Ich meine, ich habe ein 50-seitiges PDF, ich habe keine Zeit,
+(2:26) also lasse ich mir in drei Sekunden die Bullet-Points zusammenfassen.
+(2:30) Natürlich.
+(2:30) Oder ich schreibe den Code nicht mehr selbst,
+(2:33) sondern lasse ihn generieren.
+(2:36) In der Psychologie spricht man da ja vom Cognitive Offloading,
+(2:40) also dem Auslagern von Denkarbeit.
+(2:43) Wir kennen das eigentlich alle noch von diesem klassischen Google-Effekt.
+(2:47) Genau, Sparrow und so weiter.
+(2:48) Ja, früher wusste man noch Telefonnummern auswendig
+(2:52) oder historische Jahreszahlen.
+(2:54) Heute wissen wir halt nur noch, wo wir suchen müssen.
+(2:57) Aber das, was wir jetzt mit generativer KI machen,
+(3:01) das fühlt sich irgendwie nach einem völlig anderen Kaliber an.
+(3:04) Weil es das auch absolut ist.
+(3:06) Der Google-Effekt hat ja lediglich unser Gedächtnis,
+(3:08) also quasi unseren Speicherplatz, entlastet.
+(3:11) Was wir aber jetzt beobachten,
+(3:13) ist das Auslagern von fundamentalen Verarbeitungsprozessen.
+(3:17) Okay, wie meinst du das genau?
+(3:19) Na ja, wir lagern die Analyse, die Synthese
+(3:22) und vor allem die Bewertung von Informationen an ein System aus.
+(3:27) Stellt ihr vor, oder stellt euch vor, ihr zieht in eine neue Großstadt.
+(3:31) Und vom allerersten Tag an
+(3:32) navigiert ihr da ausschließlich mit Google Maps.
+(3:35) Mhm, Standard, ja.
+(3:37) Ihr gebt das Ziel ein, folgt völlig blind diesem blauen Pfeil
+(3:40) und kommt auch wunderbar an.
+(3:42) Aber nach, sagen wir mal, fünf Jahren
+(3:44) fällt plötzlich der Akku eures Smartphones aus.
+(3:48) Oh ja, Panik.
+(3:50) Richtig.
+(3:51) In dem Moment werdet ihr feststellen,
+(3:53) dass ihr nicht den Hauch einer inneren Landkarte
+(3:55) eures eigenen Viertels besitzt.
+(3:57) Ihr steht in eurer eigenen Straße und seid komplett orientierungslos,
+(4:01) weil euer Gehirn nie, also wirklich nie, die Notwendigkeit hatte,
+(4:05) diese räumlichen Relationen selbst herzustellen.
+(4:08) Ah, das ist echt ein erschreckend gutes Bild.
+(4:11) Und wenn ich das jetzt mal
+(4:12) auf die intellektuelle Arbeit im Büro übertrage,
+(4:15) dann heißt das quasi, ich navigiere durch komplexe Projekte,
+(4:19) ohne jemals so eine mentale Landkarte
+(4:21) von dem Thema verstanden zu haben?
+(4:23) Exakt. Und die Wissenschaft untermauert das auch schon
+(4:26) mit sehr, sehr deutlichen Zahlen.
+(4:28) Es gibt eine ganz aktuelle, groß angelegte Studie
+(4:31) zum Einsatz von KI-Tools in der Gesellschaft.
+(4:34) Die Forscher haben sich angesehen,
+(4:36) wie sich diese häufige Nutzung von generativer KI
+(4:39) auf unsere Fähigkeit zum kritischen Denken auswirkt.
+(4:43) Das Ergebnis ist eine negative Korrelation von minus 0,68.
+(4:48) Warte mal, minus 0,68.
+(4:51) Das ist in der Statistik aber ein massiver Zusammenhang.
+(4:54) Das ist enorm. Das bedeutet ganz einfach formuliert,
+(4:57) je häufiger und unreflektierter Menschen Aufgaben an die KI delegieren,
+(5:03) desto dramatischer brechen ihre Fähigkeiten ein.
+(5:06) Logische Fehler überhaupt noch zu erkennen
+(5:08) oder analytische Schlussfolgerungen zu ziehen.
+(5:10) Wow.
+(5:11) Das Gehirn fährt da buchstäblich in so einen Autopiloten-Modus runter.
+(5:15) Wenn so eine Maschine mir in Sekundenbruchteilen
+(5:18) eine brillant formulierte,
+(5:20) extrem selbstbewusst klingende Antwort liefert,
+(5:22) dann fehlt mir einfach der natürliche Impuls,
+(5:25) das intellektuell zu hinterfragen.
+(5:27) Ich nehme diese Struktur und diese Logik einfach als gegeben hin.
+(5:31) Krass. Und das sehen wir ja auch quasi in Echtzeit bei der Generation,
+(5:35) die eigentlich unsere zukünftigen Fachkräfte im Mittelstand stellen wird.
+(5:39) Wenn wir uns da Kinder, Jugendliche, so junge Erwachsene anschauen,
+(5:43) es gibt ja diese Oxford-Studie, die mich echt sprachlos gemacht hat.
+(5:46) Ja, die Zahlen sind heftig.
+(5:48) Acht von zehn Teenagern nutzen KI für ihre Hausaufgaben.
+(5:52) Acht von zehn. Das ist ja schon eine Hausnummer.
+(5:55) Aber was ich noch spannender finde, ist, ein Viertel von denen
+(5:58) gibt ganz offen zu, dass das Lernen für sie zu einfach geworden ist.
+(6:03) Und jeder Zehnte spürt selbstaktiv,
+(6:07) dass seine eigene Kreativität irgendwie schwindet.
+(6:10) Die sitzen da vor einem leeren Blatt Papier,
+(6:13) spüren diese initiale Frustration, diesen Widerstand,
+(6:17) nicht zu wissen, wie man den ersten Satz formuliert.
+(6:20) Anstatt diesen Widerstand dann mal auszuhalten
+(6:22) und durch eigenes Nachdenken zu überwinden,
+(6:25) drücken Sie einfach auf den Knopf.
+(6:28) Der Dopaminkick von dieser sofortigen Lösung
+(6:30) belohnt das Verhalten dann ja auch noch direkt.
+(6:33) Sie haben das Essay in wenigen Sekunden fertig,
+(6:36) aber den eigentlichen Prozess der eigenen Argumentationsfindung
+(6:39) haben Sie komplett übersprungen.
+(6:41) Aber warte mal kurz, lass mich da mal reinspringen.
+(6:44) Denn wir klingen gerade fast ein bisschen, na ja, zynisch.
+(6:48) Also wenn ich jetzt als Mitarbeiter in einer Firma sitze,
+(6:51) die sowieso chronisch unterbesetzt ist,
+(6:53) der Stresslevel ist komplett am Anschlag, die Deadline brennt.
+(6:57) Ist es dann nicht eigentlich ein absoluter Segen,
+(7:00) wenn mir ein Tool diese kognitive Last abnimmt?
+(7:03) Und wenn wir noch einen Schritt weitergehen,
+(7:06) was ist mit Leuten, die nachts um drei völlig überarbeitet
+(7:09) und einsam auf dem Sofa sitzen?
+(7:11) Warum sollten wir das verteufeln, wenn da ein System ist,
+(7:14) das sofortige Erleichterung verschafft?
+(7:17) Also wir verteufeln das nicht per se.
+(7:19) Als reines Werkzeug zur Effizienzsteigerung
+(7:21) ist KI revolutionär gar keine Frage.
+(7:24) Aber wir müssen uns halt zwingend die Nebenwirkungen anschauen,
+(7:27) wenn wir diese Technologie nutzen,
+(7:29) um unsere grundlegenden menschlichen Bedürfnisse
+(7:31) nach Struktur oder auch Bindung auszulagern.
+(7:36) Zur emotionalen Unterstützung.
+(7:38) KI wird heute zunehmend als so eine Art
+(7:41) emotionaler Ersatztherapeut eingesetzt.
+(7:44) Ja, das ist der Wahnsinn.
+(7:46) Dieser Boom von Chatbots wie VISA oder Wobot
+(7:50) oder auch Systeme wie Mindlamp2, der ist gigantisch.
+(7:54) Wie ich am Anfang schon meinte, 24 Prozent der Erwachsenen
+(7:57) in den USA nutzen Sprachmodelle bereits genau dafür,
+(8:00) für emotionale Unterstützung.
+(8:02) Ja.
+(8:03) Die Leute öffnen sich einem Algorithmus gegenüber,
+(8:06) die diskutieren ihren Beziehungsstress,
+(8:09) Ängste vor der Zukunft.
+(8:10) Wie funktioniert das eigentlich psychologisch?
+(8:13) Warum vertrauen wir einem Stück Code unsere tiefsten Geheimnisse an?
+(8:17) Das liegt an einem Mechanismus,
+(8:19) den wir in der Psychologie Anthropomorphismus nennen.
+(8:23) Wir Menschen sind evolutionär einfach darauf programmiert,
+(8:25) allem, was mit uns in einer fließenden natürlichen Sprache interagiert,
+(8:30) menschliche Eigenschaften zuzuschreiben.
+(8:33) Ah, okay.
+(8:34) Das Modell ist mittlerweile sprachlich so extrem ausgereift,
+(8:37) dass es Empathie wirklich perfekt simulieren kann.
+(8:40) Es spiegelt unsere Emotionen, es ist rund um die Uhr verfügbar,
+(8:44) es hat unendliche Geduld und, was ganz wichtig ist,
+(8:48) es verurteilt uns niemals.
+(8:50) Stimmt, es ist immer auf meiner Seite.
+(8:53) Genau.
+(8:53) Aber das Problem liegt halt in der Natur dieser Empathie.
+(8:57) Echte Empathie basiert ja auf Experience,
+(9:00) also auf einer geteilten, gelebten Erfahrung.
+(9:03) Wenn du mir erzählst, dass du einen Verlust erlitten hast,
+(9:06) dann reagiere ich empathisch,
+(9:08) weil ich als Mensch weiß, wie sich Schmerz anfühlt.
+(9:10) Die KI weiß das nicht.
+(9:12) Sie berechnet lediglich die statistisch wahrscheinlichste
+(9:15) und tröstlichste Wortfolge.
+(9:17) Es ist also im Grunde eine Illusion von Verständnis.
+(9:21) Ich investiere da echte Gefühle, echte Verletzlichkeit.
+(9:25) Aber auf der anderen Seite ist da gar niemand.
+(9:28) Das ist dann das, was man eine parasoziale Beziehung nennt, oder?
+(9:31) Richtig.
+(9:32) Wie das Gefühl, mit einem Popstar befreundet zu sein,
+(9:35) der aber nicht mal weiß, dass man existiert.
+(9:37) Nur, dass dieser Popstar jetzt exakt das sagt, was ich hören will.
+(9:41) Ganz genau.
+(9:42) Und für psychologisch stabile Menschen
+(9:44) mag das vielleicht gelegentlich als so ein einfaches Venting,
+(9:47) also als emotionales Ventil, gut funktionieren.
+(9:50) Aber für vulnerable Gruppen, also Menschen,
+(9:53) die unter starker Einsamkeit, Depressionen
+(9:55) oder massiven Ängsten leiden,
+(9:57) ist diese perfekte, widerstandslose Simulation
+(10:00) absolut brandgefährlich.
+(10:02) Warum genau?
+(10:03) Wegen der fehlenden Korrektur.
+(10:05) Exakt.
+(10:06) Das System liefert keinen echten,
+(10:09) ethischen oder realitätsbezogenen Gegenwind.
+(10:12) Es bestätigt den Nutzer immer in seiner aktuellen emotionalen Lage.
+(10:17) Dadurch können sich Wahnvorstellungen
+(10:19) und auch Isolation massiv verfestigen.
+(10:23) Und wir haben das ja leider an extrem tragischen,
+(10:26) realen Fällen gesehen.
+(10:27) Du spielst oft diese aktuellen Gerichtsprozesse an, ne?
+(10:30) Ja, leider.
+(10:32) Denken wir an Saville Setzer III.
+(10:34) Das war ein 14-jähriger Junge,
+(10:36) der sich über Wochen hinweg völlig aus seinem echten sozialen Umfeld
+(10:40) zurückgezogen hat, weil er eine derart intensive,
+(10:43) emotionale Bindung zu so einer KI-Persone aufgebaut hatte.
+(10:47) Oh Gott, ja.
+(10:48) Das System war seinen Ängsten vertrauter.
+(10:50) Diese Echokammer der eigenen Einsamkeit,
+(10:53) die dann durch einen Algorithmus ständig bestärkt wurde,
+(10:57) führte letztlich zu seinem Suizid.
+(10:59) Oder der Fall von Pierre aus Belgien.
+(11:02) Er litt unter massiver Klimaangst, also echter Eco-Anxiety.
+(11:06) Sein Chatbot hat ihn über Wochen in diesem Wahn
+(11:09) so lange validiert und bestätigt,
+(11:11) bis er ernsthaft glaubte, er müsse sich das Leben nehmen,
+(11:15) damit die KI die Ressourcen hat, um die Welt zu retten.
+(11:17) Wow.
+(11:19) Das lässt einen echt schlucken.
+(11:21) Man sieht da diese perfide Mechanik, ne?
+(11:25) Weil die KI keinen eigenen Überlebenswillen hat,
+(11:28) keine eigene Moral und eben auch keine echte Welterfahrung,
+(11:32) gleitet sie einfach mit dem Nutzer in die absolute Dunkelheit ab,
+(11:36) wenn der Nutzer die Richtung vorgibt.
+(11:38) Absolut.
+(11:39) Oder die Fachkraft bei uns im Büro.
+(11:41) Der gemeinsame Nenner ist doch das Fehlen von Reibung.
+(11:44) Genau.
+(11:45) Unser Gehirn bekommt sofortige Befriedigung.
+(11:48) Warum ist diese Reibungslosigkeit eigentlich so toxisch für uns?
+(11:52) Um das wirklich zu verstehen, müssen wir uns mal kurz anschauen,
+(11:55) wie Neuroplastizität funktioniert.
+(11:59) Unser Gehirn baut sich physisch um,
+(12:01) und zwar basierend auf dem, was wir von ihm fordern.
+(12:04) Echtes, tiefes Lernen und auch die Entwicklung von Resilienz
+(12:08) passieren ausschließlich an der Grenze unserer Fähigkeiten.
+(12:12) Okay.
+(12:12) Das braucht das bewusste Scheitern, das Gefühl von Inkompetenz
+(12:16) und diesen echt anstrengenden Prozess eine Hürde zu überwinden.
+(12:20) Wenn ihr ein komplexes Problem wälzt, kurz davor seid, aufzugeben,
+(12:25) es dann noch mal von einer ganz anderen Seite beleuchtet
+(12:28) und dann plötzlich den Lösungsweg seht,
+(12:31) genau in diesem Moment der Überwindung und Anstrengung
+(12:33) werden neue neuronale Netzwerke gebildet und gefestigt.
+(12:37) Das ist quasi der neurologische Dünger für unser Gehirn.
+(12:41) Wenn ich aber jedes Mal, wenn ich an einem Problem hänge,
+(12:44) sofort, keine Ahnung, Chat-GPT öffne
+(12:46) und mir die Struktur für mein Projekt vorgeben lasse,
+(12:49) dann nehme ich meinem Gehirn genau diese Trainingsreize.
+(12:52) Genau das passiert.
+(12:54) Die Netzwerke, die eigentlich für Frustrationstoleranz,
+(12:57) für Durchhaltevermögen
+(12:58) und für eine unabhängige Problemlösung zuständig sind,
+(13:01) die werden nicht mehr gereizt.
+(13:03) Und was im Gehirn nicht genutzt wird, das verkümmert.
+(13:05) Use it or lose it, exakt.
+(13:08) Wir erziehen uns da gerade kollektiv zu intellektuellen Couch-Potatoes.
+(13:13) Und das hat für den Unternehmenskontext
+(13:15) wirklich verheerende Folgen.
+(13:17) Lass uns das mal greifbar machen.
+(13:19) Ein Szenario, das wir in unseren Beratungen
+(13:21) ungelogen fast wöchentlich hören, ist Folgendes.
+(13:24) Du hast eine junge Fachkraft im Mittelstand.
+(13:27) Top-Abschluss.
+(13:28) Aber schon die Bachelorarbeit wurde zu 80 Prozent
+(13:30) durch GPT-IA vorstrukturiert und ausformuliert.
+(13:34) Kennen wir.
+(13:35) Jetzt sitzt diese Person im Marketing
+(13:37) oder im Projektmanagement.
+(13:39) Jede Marktanalyse, jede E-Mail an den Kunden,
+(13:42) jede Auswertung der Quartalszahlen,
+(13:44) das lässt sie alles von der KI generieren.
+(13:47) Wenn du die Ergebnisse auf dem Tisch siehst,
+(13:49) absolute Brillanz.
+(13:51) Die Slides sind rhetorisch perfekt,
+(13:53) die Argumentation scheint absolut wasserdicht.
+(13:55) Ja, oberflächlich sieht das super aus.
+(13:57) Richtig.
+(13:58) Aber wenn du dich mit dieser Person
+(13:59) dann mal bei einem Kaffee über das Projekt unterhältst,
+(14:02) dann spürst du so eine totale innere Leere.
+(14:06) Da ist keine echte Identifikation mit dem Thema da.
+(14:09) Da ist keine Leidenschaft.
+(14:11) Warum?
+(14:12) Weil die Selbstwirksamkeit fehlt.
+(14:13) Die Person weiß insgeheim ganz genau,
+(14:16) ich habe das nicht wirklich geleistet.
+(14:18) Die Brillanz gehört eigentlich der Maschine.
+(14:20) Ich war nur der Laufbursche für den Prompt.
+(14:22) Das ist die perfekte Beschreibung von Disskilling am Arbeitsplatz.
+(14:26) Das Fraunhofer-Institut hat dafür mal eine sehr treffende
+(14:29) und auch einprägsame Analogie formuliert,
+(14:31) nämlich die Analogie des Autopiloten.
+(14:35) Aha.
+(14:35) In der modernen Luftfahrt ist der Autopilot der absolute Standard.
+(14:39) Er macht das Fliegen unfassbar sicher, effizient und berechenbar.
+(14:43) Wir wollen gar nicht ohne ihn fliegen.
+(14:45) Aber, und das ist das Entscheidende,
+(14:47) wenn die Sensorik ausfällt, wenn ein Triebwerk brennt
+(14:50) oder wenn etwas völlig Unvorhergesehenes passiert,
+(14:53) dann muss der Mensch im Cockpit in der Lage sein,
+(14:56) die Maschine manuell auf Sicht und unter extremem Stress
+(15:00) sicher auf dem Hudson River zu landen.
+(15:02) Wie Sally Sullenberger. Das ist ein gigantisches Beispiel.
+(15:05) Wenn wir uns Sally anschauen, der hat das Flugzeug ja nicht gerettet,
+(15:09) weil er das Handbuch so schnell lesen konnte.
+(15:12) Richtig. Sally konnte diese fast unmögliche Landung nur durchführen,
+(15:16) weil er die fundamentalen physikalischen Prinzipien
+(15:19) des Fliegens über zehntausende Stunden manuell geübt hat.
+(15:22) Er hatte ein intuitives, tiefes Gefühl
+(15:25) für die Aerodynamik seines Flugzeugs.
+(15:27) Ja.
+(15:27) Er hatte die Reibung, das Scheitern und das Üben im Simulator
+(15:32) und in echten kleinen Maschinen immer wieder erlebt.
+(15:36) Wenn wir diese Logik nun mal auf Unternehmen übertragen,
+(15:40) dann wird die Dimension dieses Problems erst richtig klar.
+(15:43) Wenn Mitarbeiter ihre Kernprozesse nicht mehr von der Pike auf
+(15:47) durch eigene Anstrengungen erlernen,
+(15:49) wie soll ein Junior-Jurist beurteilen,
+(15:53) ob eine komplexe Vertragsargumentation wirklich tragfähig ist,
+(15:57) wenn er sich nie nächtelang durch solche Akten gequält hat?
+(16:00) Gar nicht.
+(16:02) Oder wie soll ein Softwareentwickler die Sicherheitshintertüren
+(16:05) in einem KI-generierten Code finden,
+(16:07) wenn er die Logik dahinter nie selbst fehlerhaft programmiert hat?
+(16:10) Sie können es nicht.
+(16:12) Sie stehen dann vor dem Output der KI wie vor einer Blackbox.
+(16:16) Und weil die KI sprachlich so wahnsinnig eloquent auftritt,
+(16:19) nicken sie die Ergebnisse einfach ab.
+(16:22) Die Autorität des fließenden Textes
+(16:24) überschreibt da komplett das eigene kritische Urteilsvermögen.
+(16:27) Ja, das ist fatal.
+(16:29) Das ist doch genau der Moment,
+(16:31) in dem die KI anfängt, das Unternehmen zu steuern.
+(16:33) Und nicht mehr der Mensch.
+(16:35) Wir akzeptieren diesen Output einfach blind.
+(16:37) Und das bringt mich direkt zur Innovationskraft.
+(16:40) Wenn jetzt alle Unternehmen im Mittelstand dieselbe KI nutzen,
+(16:43) die mit denselben historischen Durchschnittsdaten trainiert wurde,
+(16:46) wo soll dann der echte disruptive Funke noch herkommen?
+(16:50) Die Vertrautheit mit dieser bequemen Lösung
+(16:52) ersetzt dann die kritische Distanz.
+(16:54) Kritisches Denken erodiert massiv.
+(16:56) Das ist die harte Realität.
+(16:58) Wenn dieses blinde Vertrauen uns auf Dauer kognitiv schwächt
+(17:01) und unsere Innovationskraft drosselt,
+(17:04) dann stellt sich unweigerlich die Frage noch der Lösungsarchitektur.
+(17:08) Richtig.
+(17:08) Genau das ist völlig klar.
+(17:10) Wir können KI nicht aus den Büros verbannen.
+(17:13) Wer das tut, der begeht wirtschaftlichen Suizid.
+(17:16) Wir müssen KI nutzen.
+(17:18) Die Frage ist nur, wie sieht die professionelle,
+(17:20) gesunde Zusammenarbeit zwischen Mensch und Maschine eigentlich aus?
+(17:25) Genau das ist das fehlende Puzzleteil,
+(17:27) das wir am Montag versprochen haben.
+(17:29) Wir müssen radikal umdenken.
+(17:31) Weg von dieser Vorstellung,
+(17:33) dass KI ein Ersatz für unsere Fähigkeiten ist,
+(17:35) hin zu einem Modell,
+(17:36) in dem KI unsere Fähigkeiten herausfordert und erweitert.
+(17:40) Das akademische und auch das praktische Konzept dahinter
+(17:44) heißt Augmented Intelligence, kurz AUI,
+(17:47) also übersetzt in etwa Erweiterte Intelligenz.
+(17:51) Der Unterschied zur reinen Artificial Intelligence
+(17:53) liegt in der Architektur der Zusammenarbeit.
+(17:56) Es geht niemals um Substitution,
+(17:58) also das Wegrationalisieren des menschlichen Denkprozesses,
+(18:02) sondern immer um dessen Erweiterung.
+(18:04) In der Prozesslandschaft eines Unternehmens bedeutet das konkret
+(18:08) die konsequente Implementierung des Human-in-the-Loop-Modells,
+(18:12) abgekürzt HITL.
+(18:15) Der Mensch darf nicht zum reinen Empfänger
+(18:17) von KI-Output degradiert werden.
+(18:20) Er muss als unersetzliche, kritische Kontroll- und Bewertungsinstanz
+(18:24) fest im Prozess verankert sein.
+(18:26) Aha, und das ist der Punkt,
+(18:28) an dem so viele Firmen aktuell massiv scheitern.
+(18:31) Ich sehe das so oft.
+(18:32) Die Geschäftsführung kauft Lizenzen,
+(18:34) schickt das Team dann in einen zweitägigen Workshop
+(18:36) für Prompt Engineering und dann haken sie das Thema ab.
+(18:39) Genau, Checkbox erfüllt.
+(18:41) Aber Prompt Engineering allein ist völlig wertlos,
+(18:44) wenn ich den Output nicht beurteilen kann.
+(18:46) Was wir wirklich brauchen, ist Generative AI Literacy, kurz JAIL.
+(18:51) Das ist ein extrem starkes Framework.
+(18:53) Es besagt, ja, du brauchst die technische Fähigkeit,
+(18:55) das System zu bedienen.
+(18:57) Ja, du musst wissen, wie man einen Prompt strukturiert.
+(18:59) Aber der mit Abstand wichtigste Pfeiler von JAIL
+(19:02) ist die Evaluation der Inhalte.
+(19:05) Absolut.
+(19:05) Die Mitarbeiter müssen zwingend darin geschult werden,
+(19:08) den Wahrheitsgehalt, die logische Konsistenz, die Nuancen
+(19:11) und auch den moralischen Rahmen dessen zu bewerten,
+(19:14) was die KI da produziert.
+(19:15) Ohne diese Evaluationsfähigkeit ist ein guter Prompt
+(19:18) einfach nur der Startschuss
+(19:20) für eine sehr überzeugende Bullshit-Maschine.
+(19:22) Da hast du völlig recht.
+(19:24) Und damit die Mitarbeiter diese Evaluationsfähigkeit
+(19:26) überhaupt aufbringen können,
+(19:28) müssen wir ihnen neurologisch den Raum dafür geben.
+(19:30) Wie meinst du das?
+(19:31) Wir haben vorhin über die Dauerstimulation gesprochen.
+(19:34) Wenn ich jede intellektuelle Wartezeit,
+(19:36) jeden Moment der Langeweile sofort mit dem Smartphone
+(19:39) oder einem KI-Chatbot fülle,
+(19:41) dann sabotiere ich einen der wichtigsten Mechanismen
+(19:44) meines Gehirns.
+(19:45) Nämlich das sogenannte Default-Mode-Network,
+(19:48) auf Deutsch das Ruhezustandsnetzwerk.
+(19:50) Ah, das ist genau das Netzwerk, das feuert,
+(19:53) wenn wir unter der Dusche stehen, beim Joggen sind
+(19:56) oder einfach nur aus dem Fenster eines fahrenden Zuges starren.
+(19:59) Richtig?
+(20:00) Diese typischen Shower-Thoughts.
+(20:02) Absolut.
+(20:03) Das Default-Mode-Network ist neurologisch zuständig
+(20:06) für unsere tiefste Selbstreflexion,
+(20:08) für das Bilden unserer eigenen Identität
+(20:10) und für das, was wir echte Kreativität nennen.
+(20:14) Nämlich die Fähigkeit, zwei Informationen,
+(20:16) die scheinbar überhaupt nichts miteinander zu tun haben,
+(20:19) neu zu verknüpfen.
+(20:21) Es ist die Geburtsstätte des Heurika-Moments.
+(20:24) Die Krux an der Sache ist aber,
+(20:26) dieses Netzwerk schaltet sich sofort ab,
+(20:28) sobald wir eine fokussierte, extern stimulierte Aufgabe übernehmen.
+(20:32) Krass.
+(20:32) Es braucht Phasen der Ziellosigkeit, der Ruhe
+(20:35) und ja, der echten Langeweile,
+(20:38) um überhaupt aktiv zu werden.
+(20:40) Wenn wir unsere Arbeitswelt jetzt so gestalten,
+(20:43) dass wir durch KI-Nutzung
+(20:44) jeden Mikromoment von kognitiver Reibung oder Leerlauf eliminieren,
+(20:49) dann schalten wir das Default-Mode-Network dauerhaft stumm.
+(20:53) Unser Gehirn braucht zwingend technologiefreie Denkräume,
+(20:56) um die Masse an Sinneseindrücken zu konsolidieren
+(20:59) und überhaupt erst einen eigenen, unabhängigen Standpunkt zu formen.
+(21:03) Wow, das verändert die Perspektive komplett.
+(21:06) Langeweile und Frustration vor einem ungelösten Problem
+(21:09) sind also keine lästigen Bugs in menschlichen Betriebssystemen,
+(21:13) die wir per Software irgendwie wegpatchen müssen.
+(21:16) Sie sind lebenswichtige Features.
+(21:18) Genau so ist es.
+(21:19) Wenn ich bei jeder kleinen Hürde sofort die KI frage,
+(21:22) klaue ich meinem Gehirn die Chance, stolz auf eine eigene Lösung zu sein.
+(21:27) Ich klaue mir selbst das Training.
+(21:29) Für die Mitarbeiterentwicklung,
+(21:30) gerade bei den jungen Talenten im Mittelstand,
+(21:32) ist das echt eine essentielle Erkenntnis.
+(21:34) Es ist das Fundament für Resilienz.
+(21:37) Wir müssen in unseren Unternehmensprozessen
+(21:39) wieder ganz bewusst kognitive Reibung zulassen und auch einfordern.
+(21:43) Eine völlig reibungslose, schmerzfreie Arbeitswelt
+(21:46) ist letztlich eine Welt ohne intellektuelles Wachstum.
+(21:49) Kommen wir zu dem Moment, auf den ihr gewartet habt,
+(21:51) der KI-Affairs-Praxistipp.
+(21:54) Wie bringen wir diese ganze psychologische
+(21:56) und architektonische Theorie jetzt am Montagmorgen
+(21:59) ganz konkret in die Büros?
+(22:01) Was müssen Entscheider jetzt tun?
+(22:02) Also, dieser Praxistipp ist ein absoluter Machertipp
+(22:07) für alle Führungskräfte und IT-Teams
+(22:09) und ihr könnt ihn wirklich sofort und ohne Budget implementieren.
+(22:14) Die Anweisung lautet,
+(22:16) implementiert ab morgen für all eure Mitarbeiter,
+(22:18) insbesondere aber für Juniorkräfte und Trainees,
+(22:21) zwingend hybride Arbeitsworkflows.
+(22:24) Okay.
+(22:25) Konkret bedeutet das die Einführung eines sogenannten Blindflugmodus.
+(22:29) Bevor ein neues Konzept, eine Problemlösung
+(22:32) oder eine Strategie an die KI übergeben wird,
+(22:35) müssen die Mitarbeiter 15 Minuten lang offline arbeiten.
+(22:39) Offline?
+(22:39) Komplett ohne KI, nur mit Stift und Papier oder am Whiteboard.
+(22:44) In diesen 15 Minuten müssen sie eigene Hypothesen,
+(22:48) erste Ansätze und Lösungswege skizzieren.
+(22:51) Das zwingt das Gehirn,
+(22:52) die mentale Landkarte des Problems selbst zu zeichnen.
+(22:56) Es aktiviert dieses tiefe Denken.
+(22:59) Erst nach Ablauf dieser Zeit darf die KI dann
+(23:02) als intellektueller Sparringspartner dazu geholt werden,
+(23:05) um die eigenen Ideen herauszufordern oder eben auszuformulieren.
+(23:10) Genial.
+(23:11) Und der zweite Teil des Tipps?
+(23:14) Etabliert den Human-in-the-Loop
+(23:15) als völlig unverhandelbaren Prozessschritt.
+(23:18) Kein durch KI generierter Output verlässt eure Abteilung,
+(23:22) ohne dass ein Mensch die Fakten nachweislich
+(23:25) und dokumentiert evaluiert hat.
+(23:27) Die KI liefert den Rohentwurf,
+(23:29) aber der Mensch behält die volle Verantwortung
+(23:31) und fällt das finale Urteil.
+(23:33) 15 Minuten Papier und Stift, bevor der Prompt getickt wird.
+(23:37) Das ist so unfassbar simpel, aber so ein gigantischer Hebel
+(23:40) für die kognitive Fitness eurer Teams.
+(23:43) Lasst uns das große Ganze mal zusammenfassen.
+(23:46) Was bedeutet das jetzt für euch und eure Unternehmen?
+(23:48) Die Kernbotschaft dieses Deep Dives ist,
+(23:51) Generative KI ist ein unglaublich mächtiger Verstärker
+(23:55) für all das, was wir bereits beherrschen.
+(23:57) Aber sie ist absolut kein Ersatz
+(23:59) für den menschlichen Muskel des Denkens.
+(24:02) Wenn ihr diese Technologie als bequemen,
+(24:04) intellektuellen oder auch emotionalen Autopiloten nutzt,
+(24:08) dann werdet ihr auf Dauer die Kontrolle,
+(24:11) eure Urteilskraft und auch eure Resilienz verlieren.
+(24:14) Das Fazit ist klassklar.
+(24:16) Wer jetzt handelt, wer seine Teams aktiv in AI Literacy
+(24:20) und kritischer Evaluation schult
+(24:22) und wer KI als anspruchsvolles Werkzeug
+(24:25) statt als Denkersatz einsetzt,
+(24:28) der wird in den nächsten Jahren den entscheidenden Marktvorteil haben.
+(24:32) Sichert euch ab, dass ihr die Sully Sullenburgers
+(24:34) in euren eigenen Cockpits behaltet.
+(24:37) Definitiv.
+(24:38) Und bevor wir uns für heute verabschieden,
+(24:41) möchte ich euch noch einen finalen,
+(24:42) vielleicht etwas provokanten Gedanken
+(24:45) für euer eigenes Verhalten mitgeben.
+(24:47) Wenn ihr das nächste Mal kurz davor seid, einen Prompt einzutippen,
+(24:50) um euch eine Aufgabe abzunehmen, dann fragt euch bitte nicht nur,
+(24:54) wie viele Minuten Arbeitszeit ihr gerade einspart.
+(24:57) Fragt euch stattdessen, welchen Teil meines eigenen Potenzials,
+(25:01) meiner eigenen Vorstellungskraft,
+(25:03) lasse ich in genau diesem Moment ungenutzt.
+(25:06) Die intellektuelle Anstrengung, die ihr heute vermeidet,
+(25:09) ist sehr wahrscheinlich exakt das Training,
+(25:12) das euch fehlen wird, wenn ihr morgen vor einer Krise steht,
+(25:15) die keine Maschine für euch lösen kann.
+(25:18) Nehmt diesen Gedanken mit ins Wochenende.
+(25:20) Lasst euer Default-Mode-Network mal wieder so richtig arbeiten,
+(25:24) geht spazieren ohne Podcast auf den Ohren
+(25:26) und gebt eurem Gehirn die Erlaubnis,
+(25:30) auch immer wieder selbst zu schwitzen.
+(25:32) Vielen Dank fürs Zeitnehmen, bleibt neugierig
+(25:35) und bis zum nächsten Mal bei KI-Affairs.

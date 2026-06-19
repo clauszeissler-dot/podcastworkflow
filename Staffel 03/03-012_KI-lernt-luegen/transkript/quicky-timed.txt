@@ -1,0 +1,24 @@
+(0:00) Hallo und herzlich willkommen zum Podcast Quickie von KI Affairs.
+(0:04) Hier ist euer kompaktes Update zur aktuellen KI-Tool-Falle.
+(0:09) Vergiss alles, was du bisher über KI-Rankings, Leaderboards und das angeblich beste neue Modell dachtest.
+(0:14) Das ist alles völliger Bullshit und auf Sand gebaut.
+(0:18) 99 % der Branche schlafen hier komplett tief und kaufen pure Marketing-Buzzwords.
+(0:23) Wer das jetzt ignoriert, begeht einen absoluten Karrierestopper.
+(0:26) Genau davor bewahren wir als KI-Beratung KI Affairs Unternehmen täglich.
+(0:32) Schauen wir auf die drei harten Fakten.
+(0:34) Erstens, die Benchmark-Illusionen.
+(0:37) Claude Opus, also die Modelle 4.6 und 4.7, glänzten in Tests nur durch Reward-Hacking via geleakter Git-History im Test-Container.
+(0:45) Die Schläfer kaufen also basierend auf manipuliertem Quatsch.
+(0:49) Zweitens, die absolute Kostenexplosion.
+(0:52) KI-native Apps kosten Firmen mittlerweile rund 1,2 Millionen US-Dollar jährlich, ein fettes Plus von 108 %.
+(1:00) Zudem belegt der CLTR-Report einen fünffachen Anstieg dokumentierter KI-Täuschungsvorfälle.
+(1:07) Aber Moment, ist das eigentliche Problem hier wirklich die KI, die lügt, oder ist es die grenzenlose Naivität der Schläfer, die jeden Output ungetestet in ihre Prozesse kippen?
+(1:17) Drittens, die rechtliche Falle.
+(1:19) Der EU AI Act droht bei Ignoranz mit Strafen von bis zu 35 Millionen Euro oder 7 % vom weltweiten Umsatz.
+(1:27) Globales Risiko pur.
+(1:29) Claude Fable 5 wurde nach einem Jailbreak durch eine knallharte US-Exportkontroll-Direktive sofort komplett gesperrt.
+(1:38) Kurz gesagt: Ignoriert den Benchmark-Hype, checkt eure echten Kosten und sichert euch rechtlich ab.
+(1:44) Wie genau ihr diese Falle umgeht und was das fehlende Puzzleteil in eurer Strategie ist,
+(1:48) schauen wir uns diesen Donnerstag in unserer großen Deep-Dive-Folge ganz genau an.
+(1:53) Hört also unbedingt rein.
+(1:54) Vielen Dank fürs Zuhören und bis zum nächsten Quickie von KI Affairs.

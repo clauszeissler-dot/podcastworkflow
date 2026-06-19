@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════════
+ChatGPT-Image-Prompt — LinkedIn-Bild (Folge 035 / 03-011)
+═══════════════════════════════════════════════════════════════════
+
+▼ REFERENZEN IN CHATGPT HOCHLADEN (Reihenfolge wichtig):
+  1) Detailbild zuerst: dein hochauflösendes Portrait/Render von Claus — Hauptreferenz fürs Gesicht
+  2) Profilansichten: assets\000_PP-1_1737365716504.jpg + assets\001_PP-2_1737365716276.jpg
+  3) Logo: ki_affairs_logo_transparent_clean.png
+  → Skyline ideal: dezente Dortmunder Skyline im Hintergrundfenster möglich.
+
+▼ PROMPT (alles ab hier in ChatGPT einfügen):
+
+Nutze die beigefügten Bilder als verbindliche Referenz für eine fotorealistische, konsistente Ähnlichkeit: Das hochauflösende Portrait ist die Hauptreferenz für Claus' Gesicht und Identität, die Profilfotos (000_PP-1, 001_PP-2) sichern Proportionen und Wiedererkennbarkeit. Claus ist Mitte 40, kurze dunkle Haare, dunkler Blazer, eine echte Person, niemals ein Roboter, niemals karikiert.
+
+Szene: Ein modernes, abendliches Büro. Im Vordergrund sitzt eine junge Fachkraft am Laptop, auf dessen Bildschirm makellos perfekte, glänzende Präsentations-Slides leuchten, doch ihr Blick ist abwesend und leer, die Hände ruhen passiv. Über ihrem Kopf schwebt zart ein Hologramm eines menschlichen Gehirns, dessen Lichter gedimmt sind, als liefe es auf Autopilot. Im Mittelgrund steht Claus als ruhiger, aufmerksamer Mentor und betrachtet die Szene nachdenklich. Die Stimmung ist nicht düster-bedrohlich, sondern klar und nachdenklich, ein Moment der Erkenntnis. Hintergrund: großes Fenster mit dezenter, nächtlicher Skyline und sanftem Dunst. Farben: ausgewogenes Cyan-Teal (#2EC4C6) und Orange (#E97132) im KI-AffAIrs-Tech-Noir-Look.
+
+Text im Bild: KEIN Text, keine Buchstaben, keine schriftähnlichen Glyphen (reines Stimmungsbild für den LinkedIn-Beitrag).
+
+Platziere das beigefügte KI-AffAIrs-Hexagon-Emblem (Buchstaben KI in Cyan-Teal und Orange) klein, leuchtend und dezent unten rechts, lesbar und unverzerrt.
+
+Stil: Tech-Noir Dark-Tech Ruhrgebiet, kinoreif und fotorealistisch, hoher Detailgrad, dramatisches Rim-Light, volumetrischer Dunst, professionelle Tiefenschärfe. Format: 16:9 Querformat (für LinkedIn auch 4:5 Hochformat denkbar — bei Bedarf "4:5 Hochformat" ergänzen).
+
+▼ HINWEISE:
+- Detailbild als ALLERERSTE Referenz hochladen, dann die Profilfotos — stabilisiert die Gesichts-Ähnlichkeit.
+- Mild/positiv framen: "nachdenklicher Moment der Erkenntnis", nicht "Verzweiflung/Bedrohung" (Safety-Filter).
+- Die junge Fachkraft ist eine generische Person (keine reale Likeness nötig), nur Claus ist die Referenz-Person.

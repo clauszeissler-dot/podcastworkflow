@@ -1,0 +1,8 @@
+# Geloeschte Muell-/Error-Quellen 036 — id<TAB>status<TAB>titel<TAB>url
+c734b390-ab99-44a2-9d53-a47d0c65726b	ready	Attention Required! | Cloudflare	https://www.hinckleyallen.com/publications/2025-year-in-review-and-predictions-for-2026-in-the-cyber-ai-and-privacy-frontier/
+7c5f21a4-93bc-4fb1-a6dc-222d36b06c07	ready	Just a moment...	https://news.stanford.edu/stories/2025/12/stanford-ai-experts-predict-what-will-happen-in-2026
+8a1d530b-8382-454f-82ff-d558a87baf50	ready	Just a moment...	https://openai.com/index/introducing-gpt-5/
+ffede9fa-e38d-4d36-a52a-fa97adfbf929	ready	Page not found - CLTR	https://www.longtermresilience.org/wp-content/uploads/2026/03/v5-Scheming-in-the-wild_-detecting-real-world-AI-scheming-incident
+f8596cde-ba2e-4938-827f-edaf1239c1e6	error	https://www.computerweekly.com/de/tipp/Ein-Model-Drift-eines-KI-Modells-erkennen-und-korrigieren	
+35d3430a-fdbb-4bdf-8028-147127bbc09d	error	https://www.theatlantic.com/technology/archive/2025/03/chatbots-benchmark-tests/681929/	
+7933d98a-b14a-4238-b028-63f0335eb0b5	error	https://www.zeit.de/politik/2025-09/ki-desinformation-luege-halluzination-risiko-nachrichtenpodcast	

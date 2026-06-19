@@ -1,0 +1,12 @@
+# Geloeschte Muell-/Error-Quellen 035 — id<TAB>status<TAB>titel<TAB>url (wiederherstellbar via: source add <url>)
+09f137b7-d6cf-4d72-a538-9cd2241f1d0c	ready	404	https://www.columbiapsychiatry.org/research/research-areas/child-and-adolescent-psychiatry/sultan-lab-mental-health-informatics/
+e64e40cb-9f65-4bd8-9b31-782dc69bcf46	ready	404 Nicht gefunden	https://karrierewelt.golem.de/blogs/karriere-ratgeber/chatgpt-verandert-das-gehirn-neue-studie-offenbart-kognitive-kosten-der-ki
+8a9fbc35-3b43-49f8-8245-2447dd51b6ea	ready	Checking your browser - reCAPTCHA	https://pubmed.ncbi.nlm.nih.gov/39797615/
+c98611bf-87d4-4126-87b5-7ea7f4e64573	ready	Checking your browser - reCAPTCHA	https://pmc.ncbi.nlm.nih.gov/articles/PMC12137280/
+7bc119d5-1873-4555-b256-436c0cfca30d	ready	Die von Ihnen gewählte Seite kann nicht angewählt werden (404) - Bundeszentrale für Kinder- und Jugendmedienschutz	https://www.bzkj.de/resource/blob/280516/5c9108e8ea2eeb2f9f0f494e93e58ed8/20261-ki-chatbots-ersatz-oder-ergaenzung-in-der-mental/
+8afa08bc-266f-40da-b9f3-8ab3b6095189	ready	Just a moment...	https://openai.com/de-DE/index/ai-mental-health-research-grants/
+dd9a6e30-bc2f-4814-8b21-4de8a13095ae	ready	Just a moment...	https://news.stanford.edu/stories/2025/06/ai-mental-health-care-tools-dangers-risks
+4d9547ec-1073-49e1-a954-f10d04db8c12	error	https://www.degruyter.com/document/doi/10.1515/zpt-2023-2002/html	
+5e4dae81-1c39-43d5-969e-ef0927f0a7c9	error	https://www.linkedin.com/posts/futuristkeynotespeaker_anthropic-research-shows-that-users-tend-activity-7344247364926259201-3kQW	
+1e6ce3fc-3816-471f-ad7a-7d0387865ae6	error	https://www.tagesschau.de/wissen/forschung/ki-emotionale-naehe-100.html	
+401af172-5621-407a-9b0e-f033d43d1a0b	error	https://www.youtube.com/watch?v=_Nx2GNYyL6k	

@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════════
+ChatGPT-Image-Prompt — Podcast-Thumbnail DEEP DIVE (Folge 035 / 03-011)
+═══════════════════════════════════════════════════════════════════
+
+▼ REFERENZEN IN CHATGPT HOCHLADEN (Reihenfolge wichtig):
+  1) Detailbild zuerst: dein hochauflösendes Portrait/Render von Claus — Hauptreferenz fürs Gesicht
+  2) Profilansichten: assets\000_PP-1_1737365716504.jpg + assets\001_PP-2_1737365716276.jpg
+  3) Logo: ki_affairs_logo_transparent_clean.png
+  → Skyline optional (dezent im Hintergrund möglich).
+
+▼ PROMPT (alles ab hier in ChatGPT einfügen):
+
+Nutze die beigefügten Bilder als verbindliche Referenz für eine fotorealistische, konsistente Ähnlichkeit: Das hochauflösende Portrait ist die Hauptreferenz für Claus' Gesicht und Identität, die Profilfotos (000_PP-1, 001_PP-2) sichern Proportionen und Wiedererkennbarkeit. Claus ist Mitte 40, kurze dunkle Haare, dunkler Blazer, eine echte Person, niemals ein Roboter, niemals karikiert.
+
+Szene: Claus steht souverän und fokussiert im Mittelgrund und hält ruhig eine Hand über ein klares, schwebendes Hologramm, das einen geschlossenen Kreislauf zwischen einem menschlichen Gehirn und einem KI-Knoten zeigt (Human-in-the-Loop): Der Mensch behält sichtbar die Kontrolle, die KI ergänzt ihn. Das Gehirn-Symbol leuchtet wieder klar und stabil. Die Hologramm-Flächen tragen KEINERLEI Schrift. Hintergrund: ein dunkler, ruhiger High-Tech-Raum mit feinen Cyan-Linien und sanftem Dunst. Farb-Dominanz: kühles Cyan-Teal (#2EC4C6) für menschliche Kontrolle und Klarheit, nur gezielte orange Akzente (#E97132) als KI-Element.
+
+Text im Bild: AUSSCHLIESSLICH eine dunkle, rechteckige Metall-Plakette oben links mit dem cyan-türkisfarbenen Text DEEP DIVE (exakt D-E-E-P, Leerzeichen, D-I-V-E, fett, Versalien, perfekt geschrieben). Sonst kein weiterer Text, keine Pseudo-Buchstaben, keine schriftähnlichen Glyphen.
+
+Platziere das beigefügte KI-AffAIrs-Hexagon-Emblem (Buchstaben KI in Cyan-Teal und Orange) klein, leuchtend und dezent unten rechts, lesbar und unverzerrt.
+
+Stil: Tech-Noir Dark-Tech Ruhrgebiet, kinoreif und fotorealistisch wie Blade Runner 2049, hoher Detailgrad, klar geschichteter Vorder-, Mittel- und Hintergrund, dramatisches Rim-Light, volumetrischer Dunst. Format: 16:9 Querformat.
+
+▼ HINWEISE:
+- Detailbild als ALLERERSTE Referenz hochladen, dann die Profilfotos — stabilisiert die Gesichts-Ähnlichkeit.
+- Bei Text-Artefakten auf der Plakette: Schreibweise D-E-E-P D-I-V-E und "zwei Wörter" erneut betonen.
+- Quicky = Orange/Dringlichkeit (Problem), Deep Dive = Cyan/menschliche Kontrolle (Lösung) — Farblogik bewusst gegensätzlich halten.

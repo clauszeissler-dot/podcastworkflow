@@ -1,0 +1,26 @@
+═══════════════════════════════════════════════════════════════════
+ChatGPT-Image-Prompt — Podcast-Thumbnail QUICKY (Folge 035 / 03-011)
+═══════════════════════════════════════════════════════════════════
+
+▼ REFERENZEN IN CHATGPT HOCHLADEN (Reihenfolge wichtig):
+  1) Detailbild zuerst: dein hochauflösendes Portrait/Render von Claus — Hauptreferenz fürs Gesicht
+  2) Profilansichten: assets\000_PP-1_1737365716504.jpg + assets\001_PP-2_1737365716276.jpg
+  3) Logo: ki_affairs_logo_transparent_clean.png
+  → KEINE Skyline (Fokus auf den Kopf-/Gehirn-Effekt).
+
+▼ PROMPT (alles ab hier in ChatGPT einfügen):
+
+Nutze die beigefügten Bilder als verbindliche Referenz für eine fotorealistische, konsistente Ähnlichkeit: Das hochauflösende Portrait ist die Hauptreferenz für Claus' Gesicht und Identität, die zusätzlichen Profilfotos (000_PP-1, 001_PP-2) sichern Proportionen und Wiedererkennbarkeit. Claus ist Mitte 40, kurze dunkle Haare, dunkler Blazer, eine echte Person, niemals ein Roboter, niemals karikiert.
+
+Szene: Claus steht im Mittelgrund mit wachem, leicht alarmiertem Ausdruck und blickt klar auf ein großes, schwebendes Hologramm eines menschlichen Gehirns im Vordergrund. Die eine Hälfte des Gehirns leuchtet warm und lebendig mit feinen neuronalen Funken, die andere Hälfte erstarrt sichtbar zu einem kühlen, mechanischen Autopilot-Schaltkreis, dessen Lichter verblassen. Das Bild erzählt ohne Worte: das Denken läuft auf Autopilot. Die Hologramm-Fläche trägt KEINERLEI Schrift. Hintergrund: ein dunkler, fensterloser Raum mit dezenten neuronalen Mustern und orangem Dunst. Farb-Dominanz: kräftiges Orange (#E97132) für Dringlichkeit und Alarm, nur minimale Cyan-Teal-Akzente (#2EC4C6).
+
+Text im Bild: AUSSCHLIESSLICH eine dunkle, rechteckige Metall-Plakette oben links mit dem orangefarbenen Wort QUICKY (exakt Q-U-I-C-K-Y, sechs Buchstaben, fett, Versalien, perfekt geschrieben). Sonst kein weiterer Text, keine Pseudo-Buchstaben, keine schriftähnlichen Glyphen.
+
+Platziere das beigefügte KI-AffAIrs-Hexagon-Emblem (Buchstaben KI in Cyan-Teal und Orange) klein, leuchtend und dezent unten rechts, lesbar und unverzerrt.
+
+Stil: Tech-Noir Dark-Tech Ruhrgebiet, kinoreif und fotorealistisch wie Blade Runner 2049, hoher Detailgrad, klar geschichteter Vorder-, Mittel- und Hintergrund, dramatisches Rim-Light, volumetrischer Dunst. Format: 16:9 Querformat.
+
+▼ HINWEISE:
+- Detailbild als ALLERERSTE Referenz hochladen, dann die Profilfotos — stabilisiert die Gesichts-Ähnlichkeit.
+- Bei schwacher Ähnlichkeit: "identisches Gesicht, identische Proportionen" ergänzen oder schärferes Portrait nachreichen.
+- Bei Text-Artefakten auf der Plakette: Schreibweise Q-U-I-C-K-Y und "sechs Buchstaben" erneut betonen.

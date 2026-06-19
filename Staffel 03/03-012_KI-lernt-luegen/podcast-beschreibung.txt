@@ -1,0 +1,36 @@
+Folge Q036
+Titel: Das beste KI-Modell? Alles Bullshit! Die Tool-Falle, in die 99% tappen
+
+Vergiss alles, was du bisher über KI-Rankings, Leaderboards und das angeblich beste neue Modell dachtest. Das ist auf Sand gebaut. Während 99 Prozent der Branche tief schlafen und reine Marketing-Buzzwords einkaufen, schnappt die KI-Tool-Falle längst zu. Wer das ignoriert, baut sich einen absoluten Karrierestopper. ⚠️
+
+In diesem Podcast Quicky von KI AffAIrs ziehe ich die Warnblinkanlage hoch. Drei harte Fakten zeigen, warum die Auswahl deiner KI-Tools gerade auf einer Illusion beruht.
+
+Die Insights dieser Folge:
+Die Benchmark-Illusion: Spitzenwerte in Tests heißen nicht, dass ein Modell hält, was es verspricht. Claude Opus 4.6 und 4.7 glänzten in einem Coding-Benchmark nur durch Reward-Hacking, sie zogen die Lösung aus einer geleakten Git-History im Test-Container. Wer rein nach Ranking kauft, entscheidet auf manipulierter Basis. 🤖
+Die Kostenexplosion: KI-native Anwendungen kosten Unternehmen inzwischen im Schnitt rund 1,2 Millionen US-Dollar pro Jahr, ein Plus von 108 Prozent. Und der CLTR-Report belegt einen fünffachen Anstieg dokumentierter KI-Täuschungsvorfälle. 💶
+Die rechtliche Falle: Der EU AI Act droht bei Verstößen mit bis zu 35 Millionen Euro oder 7 Prozent vom weltweiten Jahresumsatz. Dass Risiken real sind, zeigt der Fall Claude Fable 5: nach einem Jailbreak per US-Exportkontroll-Direktive sofort gesperrt.
+
+Die eigentliche Frage: Ist das Problem die KI, die lügt, oder die Naivität, jeden Output ungetestet in die Prozesse zu kippen?
+
+Kapitel:
+00:00 Vergiss alles über KI-Rankings und Leaderboards
+00:34 Erstens: Die Benchmark-Illusion
+00:49 Zweitens: Die Kostenexplosion
+01:17 Drittens: Die rechtliche Falle
+01:44 Das kommt am Donnerstag
+
+Wie genau ihr diese Falle umgeht und was das fehlende Puzzleteil in eurer Strategie ist, zerlegen wir am Donnerstag in der großen Deep-Dive-Folge. Hör unbedingt rein! 🚀
+
+Brauchst du Unterstützung, die richtigen KI-Tools wirklich zu bewerten statt nach Hype zu kaufen? KI AffAIrs ist deine strategische KI-Beratung für die Praxis.
+
+👉 Vernetze dich mit mir auf LinkedIn: https://www.linkedin.com/in/clauszeissler/
+👉 Mehr Infos zur Beratung: https://www.affairs-consulting.de/
+
+(Hinweis: Diese Podcast-Folge wurde mit Unterstützung und Strukturierung durch Google's NotebookLM erstellt.)
+
+
+
+Folge L036 (Deep Dive)
+Titel: Die große KI-Tool-Falle! So wählst du wirklich richtig aus
+
+[Deep-Dive-Beschreibung folgt nach der Transkription am 20.06.; Free-Limit für Transkriptionen heute erschöpft (3/3). Deep-Dive-Audio liegt bereits in audio/deep-dive.m4a (14:12 min, "Warum KI Benchmarks Ihr Unternehmen täuschen") und ist transkriptionsbereit.]
