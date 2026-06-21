@@ -1,6 +1,6 @@
 Erzeuge ein fotorealistisches, kinoreifes YouTube-Thumbnail im Querformat 16:9. Die beigefügten Fotos zeigen einen echten Mann namens Claus, Mitte 40, kurze dunkle Haare, gepflegter Dreitagebart, dunkler Blazer. Übernimm sein Gesicht, seine Proportionen und seine Identität exakt und konsistent, fotorealistisch, eine echte Person, niemals ein Roboter, niemals karikiert.
 
-Szene mit klarer Aktion: Claus steht rechts im Bild und hält mit wachem, alarmiertem Ausdruck ein leuchtend-oranges Hologramm eines menschlichen Gehirns in seiner offenen Hand. Die eine Hälfte des Gehirns pulsiert lebendig mit feinen neuronalen Funken, die andere Hälfte erstarrt sichtbar zu einem kühlen, mechanischen Autopilot-Schaltkreis, dessen Lichter erlöschen. Er blickt besorgt und konzentriert darauf, leicht vorgebeugt, als wolle er es auffangen. Hintergrund: ein dunkler, fensterloser High-Tech-Raum mit dezenten neuronalen Linienmustern und orangem Dunst.
+Szene mit klarer Aktion: Claus steht rechts im Bild und deutet mit skeptischem, warnendem Ausdruck und ausgestrecktem Zeigefinger auf ein großes, schwebendes Hologramm einer glänzenden KI-Bestenliste bzw. eines Leaderboards mit einem leuchtenden Pokal und einer Nummer-1-Markierung, das jedoch sichtbar Risse bekommt und an den Rändern in digitale Bruchstücke und Glitch-Pixel zerfällt. Die scheinbar perfekte Bestnote entlarvt sich als Fassade. Claus blickt entlarvend darauf. Hintergrund: ein dunkler, fensterloser High-Tech-Raum mit orangem Dunst und Glitch-Elementen.
 
 Farb-Dominanz: kräftiges Orange (#E97132) für Dringlichkeit und Alarm, nur minimale cyan-türkise Akzente (#2EC4C6).
 
@@ -8,4 +8,4 @@ Text im Bild: oben links eine dunkle, rechteckige Metall-Plakette mit dem orange
 
 Marke/Logo: Lasse die untere rechte Bildecke bewusst ruhig, dunkel und frei von Objekten, Symbolen, Emblemen und Text. Male dort selbst KEIN Logo, KEIN Hexagon und keine Buchstaben — an dieser Stelle wird nachträglich separat das echte KI-AffAIrs-Logo eingefügt.
 
-Stil: Tech-Noir, Dark-Tech Ruhrgebiet, fotorealistisch wie Blade Runner 2049, dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad, klar geschichteter Vorder- und Hintergrund.
+Stil: Tech-Noir, Dark-Tech Ruhrgebiet, fotorealistisch wie Blade Runner 2049, dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad.

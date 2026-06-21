@@ -21,3 +21,31 @@ Die ganze Architektur für eine saubere Tool-Auswahl gibt es in der Deep-Dive-Fo
 🙋 Eine Frage an dich: Wann hast du ein KI-Tool zuletzt an deinen echten Daten getestet, bevor du es eingekauft hast? Schreib es in die Kommentare.
 
 #KIimMittelstand #EUAIAct #KICompliance #KITools #Mittelstand #KIAffairs
+
+---
+
+# LinkedIn-Post 036 (Deep Dive)
+
+„Welches KI-Modell ist das beste?" ist die falsche Frage. Sie führt 99 Prozent der Unternehmen direkt in die Tool-Falle.
+
+Im Deep Dive zerlege ich, warum öffentliche Benchmarks für deine Auswahl wertlos sind, und liefere das, was wirklich zählt: vier harte Kriterien, nach denen der Mittelstand KI-Tools auswählt. 🛠️
+
+✅ 1. Pilottest mit echten Daten. Keine Leaderboards. Ein isolierter 14-Tage-Test mit deinen echten Dokumenten und Workflows. Löst das Tool dein konkretes Problem? Wenn nicht, ist Platz 1 im Ranking wertlos.
+
+✅ 2. Total Cost of Ownership über 18 bis 24 Monate. Der Listenpreis ist eine Illusion. KI-native Apps kosten Unternehmen im Schnitt rund 1,2 Millionen US-Dollar pro Jahr, ein Plus von 108 Prozent (Zylo). Token- und Infrastrukturkosten entscheiden, nicht der Sticker-Preis. 💶
+
+✅ 3. Datenschutz und Regulierung. US Cloud Act gegen DSGVO ist der blinde Fleck vieler Entscheider. Der EU AI Act droht mit bis zu 35 Millionen Euro oder 7 Prozent vom weltweiten Jahresumsatz. Wer früh auf souveräne, DSGVO-konforme Lösungen setzt, ist oft sogar förderfähig.
+
+✅ 4. Harte Exit-Verträge. Wird dein Anbieter per Acqui-Hiring aufgekauft und das Produkt zur Zombie-Infrastruktur, brauchst du eine Klausel, die deine Daten und deinen sauberen Ausstieg sichert.
+
+⚠️ Wie real die Abhängigkeit ist, zeigt der Fall Claude Fable 5: von den US-Behörden gesperrt, nicht wegen Spionage, sondern aus Exportkontrolle. Der Zugang zu Spitzen-KI wird geopolitisch. Genau deshalb zählen Datensouveränität und ein Exit-Plan.
+
+📌 Der Machertipp: Stopp heute jedes Projekt, das auf reinen Benchmark-Vergleichen beruht. Nimm einen Prozess, bau einen Sandkasten ohne sensible Daten, lass zwei Tools 14 Tage an echten Dokumenten antreten. Und mach den Exit-Vertrag zur Standardklausel.
+
+Wer nach Praxiskriterien auswählt statt nach bunten Tabellen, hat den Vorteil und schläft nachts ruhiger.
+
+👉 Die ganze Architektur gibt es in der Deep-Dive-Folge. Link in den Kommentaren.
+
+🙋 Welches der vier Kriterien fehlt bei deiner letzten Tool-Entscheidung gerade? Schreib es in die Kommentare.
+
+#KIimMittelstand #EUAIAct #KITools #KIStrategie #Mittelstand #KIAffairs

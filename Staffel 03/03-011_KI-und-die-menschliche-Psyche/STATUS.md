@@ -16,7 +16,14 @@
 ## NEU 19.06. abends — Thumbnails fertig ✅
 - `bilder/thumbnail-quicky.png` (Gehirn-Autopilot, orange) + `thumbnail-deepdive.png` (HITL-Kreislauf, cyan), 1280×720 via `tools/gen_thumb_openai.py`. API-Prompts gesichert. Gepusht.
 
+## NEU 20.06. ✅
+- **LinkedIn-Bild (035) generiert:** `bilder/linkedin.png` (1280×720, via gen_thumb_openai.py: Fachkraft im Autopilot-Modus mit gedimmtem Gehirn-Hologramm, Claus als Mentor, Cyan/Orange, Logo sauber). Likeness + Marke visuell geprüft.
+
+## NEU 21.06. — Alle Bilder neu (gpt-image-2, keine Skyline) ✅
+- **Thumbnails** (quicky/deepdive) behalten, nur Postprocessing `tools/fix_logo_headline.py`: Logo-Bug gefixt (transparentes Logo statt schwarzem Block) + Kernaussage-Headline: Quicky „DENKT KI FÜR DICH?", DeepDive „MENSCH AM STEUER". Rohbilder `_raw-*.png`.
+- **LinkedIn neu** (`linkedin.png`): altes Bild (Fachkraft sitzt / Claus steht dahinter) wirkte wie Belästigung am Arbeitsplatz → ersetzt. Jetzt Claus allein + geteiltes Gehirn, Kernaussage „DIE AUTOPILOT-FALLE" prominent. Alt gesichert als `_v1-linkedin.png`.
+- Logo-Root-Cause + Tools s. 036-STATUS / Memory [[podcast-workflow]].
+
 ## Offen
-- [ ] **LinkedIn-Bild (035) generieren** — User-Entscheidung 19.06.: JA (Prompt `bilder/_chatgpt-prompt-linkedin.txt` liegt bereit; per API umsetzen)
 - [ ] Blog-Post (Phase 3b) — optional
-- [ ] Upload YouTube/Spotify/Blogger — durch User
+- [ ] Upload YouTube/Spotify/Blogger — durch User (neue Bilder verwenden)

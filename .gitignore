@@ -47,3 +47,9 @@ _test.png
 
 .venv-tools/
 notebooklm-mcp-venv/
+
+# Bild-Arbeitsstände / Backups (lokal, nicht versionieren)
+**/_v1-*
+**/_raw-*
+**/_poc-image2/
+**/*-logomakel.png

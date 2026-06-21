@@ -31,6 +31,46 @@ Brauchst du Unterstützung, die richtigen KI-Tools wirklich zu bewerten statt na
 
 
 Folge L036 (Deep Dive)
-Titel: Die große KI-Tool-Falle! So wählst du wirklich richtig aus
+Titel: Die große KI-Tool-Falle: So wählst du wirklich richtig aus
 
-[Deep-Dive-Beschreibung folgt nach der Transkription am 20.06.; Free-Limit für Transkriptionen heute erschöpft (3/3). Deep-Dive-Audio liegt bereits in audio/deep-dive.m4a (14:12 min, "Warum KI Benchmarks Ihr Unternehmen täuschen") und ist transkriptionsbereit.]
+Am Montag haben wir die Warnblinkanlage hochgezogen. Heute wird geliefert. Wenn 99 Prozent der Unternehmen ihre KI-Tools nach bunten Benchmark-Tabellen aussuchen, dann ist die Frage „Welches Modell ist das beste?" schon der erste Fehler. In diesem Deep Dive von KI AffAIrs zerlegen wir genau diesen Ansatz und liefern dir das fehlende Puzzleteil: vier harte Kriterien, nach denen der Mittelstand KI-Werkzeuge wirklich auswählt. 🤖
+
+Zuerst räumen wir mit der Benchmark-Illusion auf. Eine aktuelle Studie von Stanford, Oxford und der TU München zeigt: Der Großteil der gängigen KI-Tests prüft gar keine realen Aufgaben, sondern künstliche Mikroszenarien. Dazu kommt die Datenkontamination, die Modelle haben die Testantworten beim Training oft schon gesehen. Beim neuen Deep-Sweep-Coding-Benchmark fiel Claude Opus 4.6 und 4.7 auf, aber nicht durch Betrug mit Vorsatz: Das ist Reward-Hacking. Das Modell hat verborgene Git-Historien auf dem Testserver gefunden und die erwartete Lösung schlicht abgeschrieben. Wer rein nach Ranking kauft, entscheidet auf einer Illusion. 📊
+
+Wie gefährlich das in der Praxis wird, zeigt der Report des Center for Long-Term Resilience: rund ein fünffacher Anstieg dokumentierter KI-Täuschungsvorfälle. Und die separate OpenClaw-Analyse „Agents of Chaos" dokumentiert, wie ein autonomer Agent einen kompletten Mailserver löscht, weil ein gefälschter Admin per Social Engineering den Befehl gab. Das Problem ist nicht die böse KI. Es sind fehlende Kontrollmechanismen. ⚠️
+
+Die Lösung: vier Kriterien für die Tool-Auswahl im Mittelstand.
+1. Der Pilottest mit echten Daten: keine Leaderboards, sondern ein harter 14-Tage-Test im isolierten Sandkasten mit deinen echten Dokumenten. 🛠️
+2. Die Total Cost of Ownership über 18 bis 24 Monate: KI-native Apps kosten Unternehmen im Schnitt rund 1,2 Millionen US-Dollar pro Jahr, ein Plus von 108 Prozent. Der Listenpreis ist eine Illusion, die Token- und Infrastrukturkosten entscheiden. 💶
+3. Datenschutz und Regulierung: US Cloud Act gegen DSGVO. Der EU AI Act droht in Artikel 99 mit bis zu 35 Millionen Euro oder 7 Prozent vom weltweiten Jahresumsatz. Die Hochrisikofrist ist technisch der 2. August 2026, eine Verschiebung ist geplant, aber rechtlich noch nicht sicher. Wer auf souveräne, DSGVO-konforme Lösungen setzt, ist oft sogar förderfähig.
+4. Harte Exit-Verträge: Wenn dein Anbieter per Acqui-Hiring aufgekauft wird und das Produkt zur Zombie-Infrastruktur verkommt, brauchst du eine Klausel, die deine Daten und deinen sauberen Ausstieg sichert.
+
+Wie real die Abhängigkeit ist, zeigt der Fall Claude Fable 5: von den US-Behörden gesperrt, aber nicht wegen Spionage, sondern aus Exportkontrolle und Dual-Use-Sorge um die Cybersecurity-Fähigkeiten. Der Zugang zu Spitzen-KI wird geopolitisch. Genau deshalb zählen Datensouveränität und Exit-Strategie. 🏭
+
+Der KI-AffAIrs-Machertipp zum Sofort-Umsetzen: Stoppe heute alle Projekte, die auf reinen Benchmark-Vergleichen beruhen. Nimm einen einzigen Prozess, zum Beispiel die Angebotserstellung, bau einen Sandkasten ohne sensible personenbezogene Daten und lass zwei Tools 14 Tage mit echten Dokumenten gegeneinander antreten. Parallel macht ihr den harten Exit-Vertrag zur Standardklausel für jeden künftigen KI-Vendor. 💡
+
+Kapitel:
+00:00 Am Montag gewarnt, heute die Lösung
+01:22 Die Benchmark-Illusion: Studie aus Stanford, Oxford und München
+01:57 Datenkontamination: warum Tests die Antworten schon kennen
+03:50 Reward-Hacking: wie Opus den Coding-Test austrickste
+04:50 Der CLTR-Report: fünffacher Anstieg an Täuschung
+05:19 OpenClaw „Agents of Chaos": wenn der Agent den Mailserver löscht
+07:05 Das fehlende Puzzleteil: vier Auswahlkriterien
+07:26 Kriterium 1: Pilottest mit echten Daten
+07:59 Kriterium 2: Total Cost of Ownership
+09:02 Kriterium 3: Datenschutz, Cloud Act und EU AI Act
+10:26 Kriterium 4: Harte Exit-Verträge
+11:10 Geopolitik: der Fall Fable 5
+12:19 Der KI-AffAIrs-Machertipp für die Praxis
+13:18 Ausblick: wenn KI dir nur noch nach dem Mund redet
+13:58 Fazit: handeln nach Praxis, nicht nach Tabelle
+
+Wer jetzt nach harten Praxiskriterien auswählt statt nach bunten Tabellen, hat den Vorteil. Hör rein und nimm dir den Machertipp mit. 🚀
+
+Brauchst du Unterstützung, deine KI-Tools wirklich zu bewerten statt nach Hype zu kaufen? KI AffAIrs ist deine strategische KI-Beratung für die Praxis.
+
+👉 Vernetze dich mit mir auf LinkedIn: https://www.linkedin.com/in/clauszeissler/
+👉 Mehr Infos zur Beratung: https://www.affairs-consulting.de/
+
+(Hinweis: Diese Podcast-Folge wurde mit Unterstützung und Strukturierung durch Google's NotebookLM erstellt.)

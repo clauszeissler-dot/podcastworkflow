@@ -47,10 +47,24 @@ Ordnerstruktur je Folge: `Staffel 03\03-0XX_<slug>\` mit `audio\`, `transkript\`
 4. Beide Audios downloaden → `audio\quicky.m4a`, `audio\deep-dive.m4a`.
    (Download liefert `.mp3`-Endung, Inhalt ist real M4A/MP4 → als `.m4a` ablegen.)
 
-### Phase 2 — manueller Bruch (TurboScribe, Browser)
-- Audios → TurboScribe transkribieren → `transkript\quicky.txt`, `transkript\deep-dive.txt`.
-- Free-Tarif: **3 Transkriptionen/Tag, max. 30 Min/Datei.** Werbe-Zeilen (Zeile 1 + letzte) strippen.
-- Dauer vorab prüfen: `python tools\probe_duration.py <pfad.m4a>`.
+### Phase 2 — Transkription
+**STANDARD ab 2026-06-20: OpenAI `gpt-4o-transcribe-diarize` (automatisierbar, kein Limit).**
+- Tool: `python3 tools/transcribe_openai.py <audio.m4a> <ziel-basis> --mode {quicky|deepdive}`
+  (braucht `requests`; läuft mit `~/Desktop/Claude/Code/podcast-thumbnail/.venv/bin/python`).
+  Key = OPENAI_API_KEY (gleiche Quelle wie `gen_thumb_openai.py`, `~/Documents/Claude/Projects/Bild Skill/api_keys.env`).
+- Liefert **Sprecher + genaue Zeitstempel** (start/end je Segment) → `<ziel>.txt` (plain) + `<ziel>-timed.txt`
+  (`(M:SS) [Sprecher] Satz`). Feste Sprecherzahl je Format (User-Vorgabe): **Quicky = 1 Sprecher**,
+  **Deep Dive = 2 (1 m + 1 w)**. Referenzen `tools/refs/notebooklm_{host,cohost}.wav` (NotebookLM-Stimmen,
+  konstant über alle Folgen) erzwingen die 2 Sprecher; Post-Merge räumt Über-Diarisierung auf.
+  Eigennamen-Glossar (KI AffAIrs, Modelle, CLTR …) korrigiert Verhörer im Tool.
+- **Gotchas (verifiziert):** Audio-Limit 25 MB → Tool komprimiert vorab per ffmpeg auf 16 kHz Mono-MP3.
+  Referenzclips müssen **1,2–10,0 s** sein. Diarize-Modelle akzeptieren **keinen `prompt`** (→ Glossar als
+  Post-Processing). Über-Diarisierung der synthetischen NotebookLM-Stimmen ist normal → Referenzen+Merge nötig.
+- **Fallback TurboScribe (Browser, isolierter Playwright-Server `playwright-nlm`, eingeloggt cz.rules11):**
+  Free-Tarif 3 Transkriptionen/Tag, max. 30 Min/Datei, Werbe-Zeilen strippen. **ACHTUNG: TurboScribe steht
+  hinter einem Cloudflare-Bot-Block** — die Automatisierung hängt in der „Sicherheitsüberprüfung"; der User
+  muss die Challenge ggf. manuell im Browser durchklicken. Wal-Modus (🐳) = beste Qualität.
+- Dauer vorab prüfen: `python3 tools/probe_duration.py <pfad.m4a>`.
 
 ### Phase 3 — automatisierbar (Content)
 > **Faktencheck-Gate (Phase 2b):** ALLE Content-Artefakte (Show-Notes, Blog, LinkedIn, Podcast-

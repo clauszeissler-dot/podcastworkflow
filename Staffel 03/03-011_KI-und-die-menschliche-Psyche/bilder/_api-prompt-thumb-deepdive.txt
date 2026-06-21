@@ -6,6 +6,6 @@ Farb-Dominanz: kühles Cyan-Teal (#2EC4C6) für menschliche Kontrolle und Klarhe
 
 Text im Bild: oben links eine dunkle, rechteckige Metall-Plakette mit dem cyan-türkisfarbenen Text DEEP DIVE in fetten Großbuchstaben, zwei Wörter D-E-E-P und D-I-V-E, perfekt und sauber lesbar. Sonst KEIN weiterer Text, keine Pseudo-Buchstaben.
 
-Marke: platziere das beigefügte KI-AffAIrs-Hexagon-Logo (Buchstaben KI in Cyan-Teal und Orange) klein, leuchtend und dezent unten rechts, unverzerrt und lesbar.
+Marke/Logo: Lasse die untere rechte Bildecke bewusst ruhig, dunkel und frei von Objekten, Symbolen, Emblemen und Text. Male dort selbst KEIN Logo, KEIN Hexagon und keine Buchstaben — an dieser Stelle wird nachträglich separat das echte KI-AffAIrs-Logo eingefügt.
 
 Stil: Tech-Noir, Dark-Tech Ruhrgebiet, fotorealistisch wie Blade Runner 2049, dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad.
