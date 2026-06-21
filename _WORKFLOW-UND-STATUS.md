@@ -89,7 +89,13 @@ Ordnerstruktur je Folge: `Staffel 03\03-0XX_<slug>\` mit `audio\`, `transkript\`
     `ChatGPT Image …png`) und **optional die Skyline** (`OneDrive\Bilder\KI AffAIrs\dortmund_skyline_ki_affairs_logo.png`).
     Der Prompt muss diese Referenzen explizit ansprechen, mild/positiv framen (Safety-Filter), Badge-Text buchstabengenau,
     Farben #2EC4C6 cyan / #E97132 orange, Logo dezent unten rechts, 16:9. → ablegen als `bilder\_chatgpt-prompt-<name>.txt`.
-- **3e LinkedIn-Posts:** `linkedin-posts.md` (Brand-Voice-Skill).
+- **3e LinkedIn-Set (STANDARD ab Folge 035, User-Vorgabe 2026-06-21): pro Folge IMMER 3 Beiträge + 3 Bilder.**
+  - **3 Beiträge** in `linkedin-posts.md` (Brand-Voice-Skill, nur Whitelist-Zahlen):
+    1. **Quicky** (Montag, Alarm/Problem) · 2. **Deep Dive** (Donnerstag, Lösung) · 3. **Blog-Teaser** (Mittwoch, verweist auf den Blog).
+  - **3 Bilder** (16:9, je Beitrag eins): `bilder\linkedin-quicky.png`, `linkedin-deepdive.png`, `linkedin-blog.png`.
+    - Quicky/Deep Dive: mit Claus-Likeness + prominenter Kernaussage-Headline (Quicky orange, Deep Dive cyan).
+    - **Blog-Bild = festes Blog-Setting** (Tech-Noir-Konzept, KEIN Porträt, KEIN Text; Bildunterschrift + Blog erklären).
+  - Logo NIE vom Modell malen lassen → per `tools\thumb_template.py` / `fix_logo_headline.py` (transparentes Logo, fester DIN-Badge). Siehe `THUMBNAIL-STANDARD.md`.
 - **3f Podcast-Thumbnails (ab Folge 32):** 2 Thumbnails (Quicky + Deep Dive) via `tools\gen_scene.py`, **16:9**,
   mit Claus-Likeness (`assets\000_PP-1`+`001_PP-2`) + KI-Hexagon-Logo dezent + Badge-Label „QUICKY"/„DEEP DIVE".
   Farblogik: Quicky = Orange/Dringlichkeit (Problem), Deep Dive = Cyan/menschliche Kontrolle (Lösung). Kurze
