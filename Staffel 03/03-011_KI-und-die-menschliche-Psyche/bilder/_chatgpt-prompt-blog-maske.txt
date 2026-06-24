@@ -1,0 +1,17 @@
+=== CHATGPT-IMAGE-PROMPT — 035 BLOG MASKE (maske.png) ===
+Vor dem Absenden in ChatGPT diese Referenz hochladen:
+- Logo: ki_affairs_logo_transparent_clean.png
+(KEINE Personenfotos nötig — reines Konzeptbild ohne reale Person.)
+
+PROMPT (alles ab hier kopieren):
+Erzeuge ein fotorealistisches, kinoreifes Bild im Querformat 16:9 im Tech-Noir-Stil (Dark-Tech Ruhrgebiet, Stimmung wie Blade Runner 2049). Reines Konzeptbild OHNE reale Person.
+
+Bildaussage: Menschen empfinden mehr Nähe zur KI als zum Menschen, aber nur, solange sie die KI nicht als Maschine erkennen. Kernbotschaft: Transparenz, hinter dem freundlichen menschlichen Gesicht steckt eine Maschine.
+
+Szene (einfach, ein klares Motiv): Eine glatte, freundlich-warme, stilisierte menschliche Gesichtsmaske schwebt frontal im dunklen Raum. Sie löst sich an einer Seite leicht ab und gibt darunter dezente, kühl leuchtende Schaltkreise und Platinen-Strukturen frei. Die menschliche Seite ist warm in sanftem Orange (#E97132), die freigelegte Maschinen-Seite kühl in Cyan-Türkis (#2EC4C6).
+
+Kein Text, keine Buchstaben, keine Zahlen im Bild. Es ist KEINE reale Person im Bild, nur eine erkennbar künstliche Maske als Objekt, keine zweite Figur, keine Silhouette oder Schattengestalt.
+
+Logo: Platziere das hochgeladene KI-AffAIrs-Logo dezent und sauber in der unteren rechten Ecke, klein und unaufdringlich, ohne es zu verzerren.
+
+Halte die Maske mittig, mit Abstand zu oberem und unterem Rand. Stil: dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad, fotorealistisch, 16:9.

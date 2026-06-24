@@ -1,0 +1,17 @@
+=== CHATGPT-IMAGE-PROMPT — 035 BLOG THERAPEUT (therapeut.png) ===
+Vor dem Absenden in ChatGPT diese Referenz hochladen:
+- Logo: ki_affairs_logo_transparent_clean.png
+(KEINE Personenfotos nötig — reines Konzeptbild ohne Person.)
+
+PROMPT (alles ab hier kopieren):
+Erzeuge ein fotorealistisches, kinoreifes Bild im Querformat 16:9 im Tech-Noir-Stil (Dark-Tech Ruhrgebiet, Stimmung wie Blade Runner 2049). Reines Konzeptbild OHNE Person.
+
+Bildaussage: Über die Hälfte der Menschen nutzt KI gegen Stress und sucht in ihr eine emotionale Stütze. Zeige diese verführerische, immer verfügbare Nähe und subtil ihre Kehrseite, die stille Abhängigkeit.
+
+Szene (sehr einfach, ein klares Motiv): Ein einzelnes Smartphone steht aufrecht oder leicht geneigt auf einer dunklen Fläche in einem nächtlichen, fast leeren Raum. Aus dem Display strömt ein weiches, warmes, fast menschlich wirkendes Licht und sanfte, schwebende Chat-Sprechblasen aus Licht. Das Glühen wirkt tröstlich und einladend, die Umgebung ist dunkel und einsam. Warme Cyan-Türkis-Akzente (#2EC4C6) treffen auf ein warmes Orange-Glühen (#E97132).
+
+Kein Text, keine Buchstaben, keine Zahlen im Bild, auch nicht auf dem Display. KEINE Person, KEINE Hand, KEINE Silhouette oder Schattenfigur, nur das Smartphone und das Licht.
+
+Logo: Platziere das hochgeladene KI-AffAIrs-Logo dezent und sauber in der unteren rechten Ecke, klein und unaufdringlich, ohne es zu verzerren.
+
+Halte das Smartphone und das Glühen mittig, mit Abstand zu oberem und unterem Rand. Stil: intime nächtliche Stimmung, dramatisches Lichtspiel, volumetrischer Dunst, hoher Detailgrad, fotorealistisch, 16:9.
