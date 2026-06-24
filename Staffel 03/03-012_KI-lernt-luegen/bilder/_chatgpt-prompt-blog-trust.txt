@@ -1,0 +1,19 @@
+=== CHATGPT-IMAGE-PROMPT — 036 BLOG TRUST (trust.png) — MIT CLAUS ===
+Vor dem Absenden in ChatGPT diese Referenzbilder hochladen:
+- Porträtfotos von Claus: assets/000_PP-1_1737365716504.jpg, assets/001_PP-2_1737365716276.jpg
+- Logo: Code/Bild Assets/ki_affairs_logo_transparent_clean.png
+
+PROMPT (alles ab hier kopieren):
+Erzeuge ein fotorealistisches, kinoreifes Bild im Querformat 16:9 im Tech-Noir-Stil (Dark-Tech Ruhrgebiet, Stimmung wie Blade Runner 2049). Die hochgeladenen Porträtfotos zeigen einen echten Mann namens Claus, Mitte 40, kurze dunkle Haare, gepflegter Dreitagebart, dunkler Blazer. Übernimm sein Gesicht und seine Identität exakt und konsistent, fotorealistisch, eine echte Person, niemals ein Roboter, niemals karikiert.
+
+Bildaussage: Souveräne, geprüfte Tool-Auswahl statt blindem Ranking-Vertrauen. Der Mensch entscheidet nach echten Kriterien.
+
+Szene (einfach, auf einen Blick verständlich): Claus steht rechts im Bild, halbnah, souverän und konzentriert. Er wählt mit einer Hand gezielt aus mehreren schwebenden, holografischen KI-Tool-Karten genau die EINE Karte aus, die ein klares, leuchtend grünes Häkchen trägt. Die anderen Karten erscheinen neutral oder tragen kleine orange Warnsymbole. Dominanz kühles Cyan-Teal (#2EC4C6) für Klarheit, ein ruhiger grüner Akzent am Häkchen, dezente orange Akzente (#E97132).
+
+WICHTIG zur Abgrenzung: KEIN holografischer Kopf, KEIN geteiltes Gehirn, KEINE Gehirnhälften, KEIN Profil-Hologramm. Das einzige holografische Element sind die schwebenden Tool-Karten, aus denen Claus die eine mit dem grünen Häkchen wählt.
+
+Kein Text, keine Buchstaben, keine Zahlen im Bild. Nur EINE einzige reale Person (Claus), keine zweite Person, keine zusätzliche Silhouette oder Schattenfigur; die Tool-Karten sind klar als Hologramm erkennbar.
+
+Logo: Platziere das hochgeladene KI-AffAIrs-Logo dezent und sauber in der unteren rechten Ecke, klein und unaufdringlich, ohne es zu verzerren. Halte den Bereich um das Logo ruhig.
+
+Halte Kopf und Haare von Claus mit etwas Abstand vom oberen und unteren Rand. Stil: dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad, fotorealistisch, 16:9.

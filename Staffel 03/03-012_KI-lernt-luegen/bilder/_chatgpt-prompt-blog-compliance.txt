@@ -1,0 +1,19 @@
+=== CHATGPT-IMAGE-PROMPT — 036 BLOG COMPLIANCE (compliance.png) — KONZEPT, KEINE PERSON ===
+Vor dem Absenden in ChatGPT diese Referenz hochladen:
+- Logo: Code/Bild Assets/ki_affairs_logo_transparent_clean.png
+(KEINE Porträtfotos hochladen — dies ist ein reines Konzeptbild ohne Person.)
+
+PROMPT (alles ab hier kopieren):
+Erzeuge ein fotorealistisches, kinoreifes Bild im Querformat 16:9 im Tech-Noir-Stil (Dark-Tech Ruhrgebiet, Stimmung wie Blade Runner 2049). Reines Konzeptbild.
+
+Bildaussage: Datensouveränität ist kein Nice-to-have. Der EU AI Act setzt den rechtlichen Rahmen für KI-Tools.
+
+Szene (einfach, sofort verständlich): Zentral schwebt als Hologramm eine glänzende Justitia-Waage neben einem leuchtenden Schutzschild-Symbol, sauber umgeben von einem geschlossenen Kreis aus zwölf gleichmäßig angeordneten EU-Sternen als feine Lichtpunkte. Die Komposition strahlt rechtliche Klarheit und Schutz aus. Dominanz kühles Cyan-Teal (#2EC4C6) für Klarheit und Kontrolle, gezielte orange Akzente (#E97132). Volumetrischer Dunst, dramatisches Rim-Light.
+
+Kein Text, keine Buchstaben, keine Pseudo-Schrift, keine Zahlen im Bild.
+
+WICHTIG: ABSOLUT KEINE Person im Bild, keine Menschen, keine Silhouette, keine Mantelfigur, keine Schattengestalt, keine Hand. Reines Konzeptbild ohne jede Figur.
+
+Logo: Platziere das hochgeladene KI-AffAIrs-Logo dezent und sauber in der unteren rechten Ecke, klein und unaufdringlich, ohne es zu verzerren. Halte den Bereich um das Logo ruhig.
+
+Stil: Tech-Noir, Dark-Tech Ruhrgebiet, fotorealistisch wie Blade Runner 2049, dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad, 16:9. Halte wichtige Bildelemente mit etwas Abstand vom oberen und unteren Rand.

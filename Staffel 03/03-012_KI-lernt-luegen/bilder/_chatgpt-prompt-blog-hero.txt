@@ -1,0 +1,21 @@
+=== CHATGPT-IMAGE-PROMPT — 036 BLOG HERO (hero.png) — NEUES HEADER-KONZEPT, MIT CLAUS ===
+Ziel: Header von 036 muss sich klar von 035 abheben. NICHT die Komposition "Claus steht seitlich neben einem großen Hologramm-Kopf" (das ist 035). Hier: Claus zentral-frontal mit einem Objekt in den Händen.
+
+Vor dem Absenden in ChatGPT diese Referenzbilder hochladen:
+- Porträtfotos von Claus: assets/000_PP-1_1737365716504.jpg, assets/001_PP-2_1737365716276.jpg
+- Logo: Code/Bild Assets/ki_affairs_logo_transparent_clean.png
+
+PROMPT (alles ab hier kopieren):
+Erzeuge ein fotorealistisches, kinoreifes Bild im Querformat 16:9 im Tech-Noir-Stil (Dark-Tech Ruhrgebiet, Stimmung wie Blade Runner 2049). Die hochgeladenen Porträtfotos zeigen einen echten Mann namens Claus, Mitte 40, kurze dunkle Haare, gepflegter Dreitagebart, dunkler Blazer. Übernimm sein Gesicht und seine Identität exakt und konsistent, fotorealistisch, eine echte Person, niemals ein Roboter, niemals karikiert.
+
+Bildaussage: Die Benchmark-Trophäe (der erste Platz im KI-Ranking) ist eine zerfallende Illusion. Wer dem Pokal blind vertraut, hält am Ende nur Bruchstücke in der Hand.
+
+Szene (einfach, auf einen Blick verständlich): Claus steht zentral, frontal zum Betrachter, Halbporträt (Brusthöhe), mit ruhigem, skeptisch-prüfendem Blick. In seinen Händen hält er auf Brusthöhe eine glänzende goldene Siegertrophäe, einen Benchmark-Pokal mit einer großen "Nr. 1"-Anmutung. Doch die Trophäe zerfällt sichtbar an den Rändern in digitale Glitch-Bruchstücke, Pixel und Asche, die nach unten wegrieseln. Sein Blick sagt: Das hält nicht, was es verspricht. Kühle cyan-türkise Lichtakzente (#2EC4C6) auf ihm und der Trophäe, orange Energierisse und Glut (#E97132) an der zerfallenden Trophäe. Im dunklen, unscharfen Hintergrund eine Tech-Noir-Ruhrgebiet-Stadt.
+
+WICHTIG zur Abgrenzung von 035: KEIN großer holografischer Kopf, KEIN geteiltes Gehirn, KEINE Gehirnhälften, KEIN seitlich schwebendes Profil-Hologramm. Claus steht zentral und frontal, das Schlüsselobjekt (die zerfallende Trophäe) ist in seinen Händen, nicht als großes Hologramm neben ihm.
+
+Kein Text, keine Buchstaben, keine Zahlen im Bild. Nur EINE einzige reale Person (Claus), keine zweite Person, keine zusätzliche Silhouette oder Schattenfigur.
+
+Logo: Platziere das hochgeladene KI-AffAIrs-Logo dezent und sauber in der unteren rechten Ecke, klein und unaufdringlich, ohne es zu verzerren. Halte den Bereich um das Logo ruhig.
+
+Halte Kopf und Haare von Claus mit etwas Abstand vom oberen und unteren Rand. Stil: dramatisches Rim-Light, volumetrischer Dunst, hoher Detailgrad, fotorealistisch, 16:9.
